@@ -1,38 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Dokumentasi
 
-## Getting Started
+### Tugas 1
+![Tugas 1](public/docs/tugas_1.png)
 
-First, run the development server:
+### Tugas 2
+![Tugas 2](public/docs/tugas_2.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Pertanyaan Refleksi
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Mengapa Pages Router disebut sebagai routing berbasis file?**
+   Pages Router disebut sebagai routing berbasis file karena struktur URL aplikasi ditentukan langsung oleh struktur file dan folder di dalam direktori `pages`.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+   Setiap file JavaScript/TypeScript (.js, .jsx, .ts, .tsx) yang diekspor sebagai komponen React di dalam folder `pages` secara otomatis menjadi rute yang dapat diakses.
+   
+   Contohnya, file `pages/about.tsx` akan menjadi rute `/about`.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+2. **Apa perbedaan Next.js dengan React standar (CRA)?**
+   - **Rendering:** Next.js mendukung Server-Side Rendering (SSR) dan Static Site Generation (SSG) secara bawaan untuk performa dan SEO yang lebih baik. React standar (CRA) biasanya hanya menggunakan Client-Side Rendering (CSR).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+   - **Routing:** Next.js memiliki sistem routing berbasis file otomatis. React standar memerlukan pustaka tambahan seperti `react-router-dom` untuk menangani routing.
 
-To learn more about Next.js, take a look at the following resources:
+   
+   - **Fitur Bawaan:** Next.js dilengkapi dengan fitur-fitur seperti optimasi gambar, API routes, dan middleware. React standar lebih minimalis dan memerlukan konfigurasi manual atau pustaka tambahan untuk fitur-fitur tersebut.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. **Apa fungsi perintah npm run dev?**
 
-## Deploy on Vercel
+   Perintah `npm run dev` berfungsi untuk menjalankan server pengembangan (development server).
+   
+   Server ini mendukung fitur-fitur seperti *Fast Refresh* (Hot Module Replacement), yang memungkinkan pengembang melihat perubahan kode secara instan di browser tanpa perlu memuat ulang halaman secara manual, serta menampilkan pesan error yang detail untuk debugging.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. **Apa perbedaan npm run dev dan run build?**
+   - **npm run dev:** Digunakan selama proses pengembangan. Kode tidak diminifikasi, mendukung *hot reloading*, dan menyertakan *source maps* untuk memudahkan debugging. Performa mungkin lebih lambat dibandingkan build production.
+
+
+   - **npm run build:** Digunakan untuk memepersiapkan aplikasi ke lingkungan produksi (*production*). Perintah ini melakukan kompilasi, minifikasi kode, optimasi aset, dan membangun halaman statis (SSG) jika memungkinkan. Hasil build ini siap untuk dijalankan dengan `npm start` dan jauh lebih cepat serta efisien dibandingkan mode dev.
