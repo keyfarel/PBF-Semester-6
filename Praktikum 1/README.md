@@ -1,4 +1,16 @@
-## Dokumentasi
+## Dokumentasi Praktikum 1
+
+### Langkah 3
+![Tugas 1](public/docs/langkah_3.png)
+
+### Langkah 5
+![Tugas 2](public/docs/langkah_5.png)
+
+### Langkah 6
+![Tugas 1](public/docs/langkah_6.png)
+
+### Langkah 7
+![Tugas 2](public/docs/langkah_7.png)
 
 ### Tugas 1
 ![Tugas 1](public/docs/tugas_1.png)
