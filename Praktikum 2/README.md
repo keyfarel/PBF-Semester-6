@@ -17,3 +17,13 @@
 ![Langkah 3](public/docs/langkah-3f.png)
 ![Langkah 3](public/docs/langkah-3g.png)
 
+### 4. Dynamic Routing
+![Langkah 4](public/docs/langkah-4a.png)
+![Langkah 4](public/docs/langkah-4b.png)
+![Langkah 4](public/docs/langkah-4c.png)
+![Langkah 4](public/docs/langkah-4d.png)
+![Langkah 4](public/docs/langkah-4e.png)
+![Langkah 4](public/docs/langkah-4f.png)
+
+
+
