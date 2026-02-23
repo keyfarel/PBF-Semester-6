@@ -32,4 +32,5 @@
 ![Langkah 5](public/docs/langkah-5e.png)
 
 ### 6. Membuat Layout Global (App Shell)
-
+![Langkah 6](public/docs/langkah-6a.png)
+![Langkah 6](public/docs/langkah-6b.png)
