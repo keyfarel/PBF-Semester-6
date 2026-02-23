@@ -34,3 +34,13 @@
 ### 6. Membuat Layout Global (App Shell)
 ![Langkah 6](public/docs/langkah-6a.png)
 ![Langkah 6](public/docs/langkah-6b.png)
+
+### 7. Implementasi Layout di _app.tsx
+![Tugas 1](public/docs/tugas-1a.png)
+
+### Tugas 1
+![Tugas 1](public/docs/tugas-1a.png)
+![Tugas 1](public/docs/tugas-1b.png)
+
+### Tugas 2
+![Tugas 2](public/docs/tugas-2a.png)
