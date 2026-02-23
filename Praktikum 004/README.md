@@ -18,11 +18,18 @@
 
 ### 1. Menjalankan Project
 
-![Langkah 1](public/docs/langkah_1.png)
+![Langkah 1](public/docs/langkah-1a.png)
 
 ### 2. Membuat Catch-All Route
 
-![Langkah 2](public/docs/langkah_2.png)
+![Langkah 2](public/docs/langkah-2a.png)
+![Langkah 2](public/docs/langkah-2b.png)
+![Langkah 2](public/docs/langkah-2c.png)
+![Langkah 2](public/docs/langkah-2d.png)
+![Langkah 2](public/docs/langkah-2e.png)
+![Langkah 2](public/docs/langkah-2f.png)
+![Langkah 2](public/docs/langkah-2g.png)
+
 
 ---
 
