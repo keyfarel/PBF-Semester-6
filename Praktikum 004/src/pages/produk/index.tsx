@@ -2,20 +2,25 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
 const Produk = () => {
-  const [isLogin, setIsLogin] = useState(false);
-  const { push } = useRouter();
+    const [isLoading, setIsLoading] = useState(true);
+    const [isLogin, setIsLogin] = useState(false);
+    const { push } = useRouter();
 
-  useEffect(() => {
-    if (!isLogin) {
-      push("/auth/login");
+    useEffect(() => {
+        const loginStatus = localStorage.getItem("isLogin");
+        if (loginStatus === "true") {
+            setIsLogin(true);
+        } else {
+            push("/auth/login");
+        }
+        setIsLoading(false);
+    }, [push]);
+
+    if (isLoading || !isLogin) {
+        return null;
     }
-  }, [isLogin, push]);
 
-  if (!isLogin) {
-    return null;
-  }
-
-  return <div>Produk User Page</div>;
+    return <div>Produk User Page</div>;
 };
 
 export default Produk;
