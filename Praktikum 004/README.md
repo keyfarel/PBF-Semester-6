@@ -34,6 +34,10 @@
 ![Langkah 3](public/docs/langkah-3c.png)
 ![Langkah 3](public/docs/langkah-3d.png)
 
+### 4. Optional Catch-All Route
+
+![Langkah 4](public/docs/langkah-4a.png)
+![Langkah 4](public/docs/langkah-4b.png)
 
 ---
 
