@@ -13,17 +13,20 @@ const HalamanLogin = () => {
     <div>
       <h1>Halaman Login</h1>
 
-      {/* 3 cara benar untuk melakukan push */}
-      <button onClick={handlerLogin}>Login</button> 
-      <br />
+      {/* Imperatif → Login -> Product */}
+      <button onClick={handlerLogin}>Login</button>
+      <br /><br />
 
-      <button onClick={() => push("/produk")}>Login</button>
-      <br />
+      {/* Link → Login -> Register */}
+      <Link href="/auth/register">
+        <button>Ke Halaman Register</button>
+      </Link>
+      <br /><br />
 
-      <button onClick={() => handlerLogin()}>Login</button>
-      <br />
-
-      <Link href="/auth/register">Ke Halaman Register</Link>
+      {/* Bonus: tombol tambahan navigasi balik ke Login (buat contoh) */}
+      <Link href="/auth/login">
+        <button>Kembali ke Login</button>
+      </Link>
     </div>
   );
 };

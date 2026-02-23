@@ -5,8 +5,8 @@ const HalamanRegister = () => {
     <div>
       <h1>Halaman Register</h1>
 
-      <Link href="/login">
-        Halaman Login
+      <Link href="/auth/login">
+        <button>Ke Halaman Login</button>
       </Link>
     </div>
   );
