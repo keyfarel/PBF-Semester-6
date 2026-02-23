@@ -20,10 +20,16 @@
 ### 4. Dynamic Routing
 ![Langkah 4](public/docs/langkah-4a.png)
 ![Langkah 4](public/docs/langkah-4b.png)
-![Langkah 4](public/docs/langkah-4c.png)
 ![Langkah 4](public/docs/langkah-4d.png)
 ![Langkah 4](public/docs/langkah-4e.png)
 ![Langkah 4](public/docs/langkah-4f.png)
 
+### 5. Membuat Komponen Navbar
+![Langkah 5](public/docs/langkah-5a.png)
+![Langkah 5](public/docs/langkah-5b.png)
+![Langkah 5](public/docs/langkah-5c.png)
+![Langkah 5](public/docs/langkah-5d.png)
+![Langkah 5](public/docs/langkah-5e.png)
 
+### 6. Membuat Layout Global (App Shell)
 
