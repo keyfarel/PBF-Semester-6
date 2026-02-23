@@ -8,6 +8,14 @@ Setiap materi atau tugas praktikum disimpan dalam foldernya masing-masing:
 
 - **Praktikum 002**: Implementasi dasar antarmuka pengguna (UI) menggunakan Next.js dan styling kustom. Berisi halaman Home dan About.
 - **Praktikum 003**: Implementasi routing (Nested & Dynamic Routing), pembuatan komponen Navbar, Global Layout (App Shell), dan Footer.
+- **Praktikum 004**: Advanced routing, catch-all routes, navigasi imperatif, dan simulasi redirect login.
+
+## Laporan Praktikum
+
+Akses laporan praktikum melalui link berikut:
+- [Laporan Praktikum 2](Laporan_Jobsheet/praktikum-002.md)
+- [Laporan Praktikum 3](Laporan_Jobsheet/praktikum-003.md)
+- [Laporan Praktikum 4](Laporan_Jobsheet/praktikum-004.md)
 
 ## Cara Menjalankan
 
