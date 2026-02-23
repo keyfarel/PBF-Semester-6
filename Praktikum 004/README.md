@@ -39,9 +39,15 @@
 ![Langkah 4](public/docs/langkah-4a.png)
 ![Langkah 4](public/docs/langkah-4b.png)
 
-### 5. Pengujian Optional Catch-All Route
+### 5. Validasi Parameter
 
 ![Langkah 5](public/docs/langkah-5a.png)
+
+### 6. Membuat Halaman Login & Register
+
+![Langkah 6](public/docs/langkah-6a.png)
+![Langkah 6](public/docs/langkah-6b.png)
+![Langkah 6](public/docs/langkah-6c.png)
 
 ---
 
