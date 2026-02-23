@@ -9,7 +9,9 @@ const HalamanToko = () => {
     return (
         <div>
             <h1>Halaman Toko</h1>
-            <p>{`Toko: ${Array.isArray(slug) ? slug.join(" ") : slug}`}</p>
+            <p>
+                Kategori: {slug ? slug[0] : "Semua Kategori"}
+            </p>
         </div>
     );
 };

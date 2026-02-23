@@ -39,6 +39,10 @@
 ![Langkah 4](public/docs/langkah-4a.png)
 ![Langkah 4](public/docs/langkah-4b.png)
 
+### 5. Pengujian Optional Catch-All Route
+
+![Langkah 5](public/docs/langkah-5a.png)
+
 ---
 
 ## Tugas Mandiri
