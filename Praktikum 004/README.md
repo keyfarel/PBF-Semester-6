@@ -26,9 +26,13 @@
 ![Langkah 2](public/docs/langkah-2b.png)
 ![Langkah 2](public/docs/langkah-2c.png)
 ![Langkah 2](public/docs/langkah-2d.png)
-![Langkah 2](public/docs/langkah-2e.png)
-![Langkah 2](public/docs/langkah-2f.png)
-![Langkah 2](public/docs/langkah-2g.png)
+
+### 3. Pengujian Catch-All Route
+
+![Langkah 3](public/docs/langkah-3a.png)
+![Langkah 3](public/docs/langkah-3b.png)
+![Langkah 3](public/docs/langkah-3c.png)
+![Langkah 3](public/docs/langkah-3d.png)
 
 
 ---
