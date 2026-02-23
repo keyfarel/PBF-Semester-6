@@ -6,15 +6,16 @@ Repository ini berisi kumpulan tugas dan praktikum untuk mata kuliah **Pemrogram
 
 Setiap materi atau tugas praktikum disimpan dalam foldernya masing-masing:
 
-- **Praktikum 1**: Implementasi dasar antarmuka pengguna (UI) menggunakan Next.js dan styling kustom. Berisi halaman Home dan About.
+- **Praktikum 002**: Implementasi dasar antarmuka pengguna (UI) menggunakan Next.js dan styling kustom. Berisi halaman Home dan About.
+- **Praktikum 003**: Implementasi routing (Nested & Dynamic Routing), pembuatan komponen Navbar, Global Layout (App Shell), dan Footer.
 
 ## Cara Menjalankan
 
-Setiap folder praktikum memiliki dependensinya sendiri. Untuk menjalankan salah satu proyek (misalnya Praktikum 1):
+Setiap folder praktikum memiliki dependensinya sendiri. Untuk menjalankan salah satu proyek (misalnya Praktikum 002):
 
 1. **Masuk ke direktori praktikum:**
    ```bash
-   cd "Praktikum 1"
+   cd "Praktikum 002"
    ```
 
 2. **Install dependencies:**
