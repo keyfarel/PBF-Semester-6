@@ -58,6 +58,8 @@
 
 ### 8. Simulasi Redirect (Belum Login)
 
+![Langkah 8](public/docs/langkah-8a.png)
+![Langkah 8](public/docs/langkah-8b.png)
 
 ---
 
