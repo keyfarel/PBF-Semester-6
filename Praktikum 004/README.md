@@ -48,6 +48,16 @@
 ![Langkah 6](public/docs/langkah-6a.png)
 ![Langkah 6](public/docs/langkah-6b.png)
 ![Langkah 6](public/docs/langkah-6c.png)
+![Langkah 6](public/docs/langkah-6d.png)
+![Langkah 6](public/docs/langkah-6e.png)
+
+### 7. Navigasi Imperatif (router.push)
+
+![Langkah 7](public/docs/langkah-7a.png)
+![Langkah 7](public/docs/langkah-7b.png)
+
+### 8. Simulasi Redirect (Belum Login)
+
 
 ---
 
