@@ -27,6 +27,14 @@
 ![CSS Module](public/docs/langkah-2d.png)
 ![CSS Module](public/docs/langkah-2e.png)
 
+### 3. Styling untuk Pages (CSS Module)
+
+![Styling untuk Pages (CSS Module)](public/docs/langkah-3a.png)
+![Styling untuk Pages (CSS Module)](public/docs/langkah-3b.png)
+![Styling untuk Pages (CSS Module)](public/docs/langkah-3c.png)
+![Styling untuk Pages (CSS Module)](public/docs/langkah-3d.png)
+![Styling untuk Pages (CSS Module)](public/docs/langkah-3e.png)
+
 ---
 
 ## Tugas Mandiri
