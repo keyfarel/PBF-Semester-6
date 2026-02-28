@@ -19,7 +19,13 @@
 ![Global CSS](public/docs/langkah-1a.png)
 ![Global CSS](public/docs/langkah-1b.png)
 
+### 2. CSS Module (Local Scope)
 
+![CSS Module](public/docs/langkah-2a.png)
+![CSS Module](public/docs/langkah-2b.png)
+![CSS Module](public/docs/langkah-2c.png)
+![CSS Module](public/docs/langkah-2d.png)
+![CSS Module](public/docs/langkah-2e.png)
 
 ---
 

@@ -1,14 +1,13 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
+import styles from './navbar.module.css';
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Praktikum() {
+const Navbar = () => {
   return (
-    <div className={inter.className}>
-      <h1>Praktikum Next.js Pages</h1>
-      <p>Nama: Key Firdausi Alfarel</p>
-      <p>NIM: 2341729186</p>
+    <div className={styles.navbar}>
+      <div>
+        <h1>Navbar Component</h1> 
+      </div>
     </div>
   );
-}
+};
+
+export default Navbar;
