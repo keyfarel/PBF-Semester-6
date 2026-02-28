@@ -61,6 +61,16 @@
 ![Kombinasi Global CSS + CSS Module](public/docs/langkah-7a.png)
 ![Kombinasi Global CSS + CSS Module](public/docs/langkah-7b.png)
 
+### 8. SCSS (SASS)
+
+![SCSS (SASS)](public/docs/langkah-8a.png)
+![SCSS (SASS)](public/docs/langkah-8b.png)
+![SCSS (SASS)](public/docs/langkah-8c.png)
+![SCSS (SASS)](public/docs/langkah-8d.png)
+![SCSS (SASS)](public/docs/langkah-8e.png)
+![SCSS (SASS)](public/docs/langkah-8f.png)
+![SCSS (SASS)](public/docs/langkah-8g.png)
+
 ---
 
 ## Tugas Mandiri

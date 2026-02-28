@@ -1,12 +1,18 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import styles from "./login.module.css";
+import styles from "./login.module.scss";
 
 const TampilanLogin = () => {
   const { push } = useRouter();
 
   const handleLogin = () => {
-    // logic login disini
+    console.log("Tombol login diklik ✔");
+
+    // contoh: cek login
+    const isLoggedIn = true;
+    console.log("Status login:", isLoggedIn);
+
+    console.log("Mengalihkan ke halaman /produk ...");
     push("/produk");
   };
 
@@ -25,10 +31,10 @@ const TampilanLogin = () => {
           padding: "5px",
         }}
       >
-        belum punya akun
+        Belum punya akun?
       </h1>
 
-      <Link href="/auth/register">Ke Halaman Register</Link>
+      <Link href={"/auth/register"}>Ke Halaman Register</Link>
     </div>
   );
 };
