@@ -41,7 +41,15 @@
 ![Styling untuk Components (CSS Module)](public/docs/langkah-4b.png)
 ![Styling untuk Components (CSS Module)](public/docs/langkah-4c.png)
 ![Styling untuk Components (CSS Module)](public/docs/langkah-4d.png)
-![Styling untuk Components (CSS Module)](public/docs/langkah-4e.png)
+
+### 5. Refactoring Struktur Project (Best Practice)
+
+![Refactoring Struktur Project (Best Practice)](public/docs/langkah-5a.png)
+![Refactoring Struktur Project (Best Practice)](public/docs/langkah-5b.png)
+![Refactoring Struktur Project (Best Practice)](public/docs/langkah-5c.png)
+![Refactoring Struktur Project (Best Practice)](public/docs/langkah-5d.png)
+![Styling untuk Pages (Global CSS)](public/docs/langkah-5e.png)
+![Styling untuk Pages (Global CSS)](public/docs/langkah-5f.png)
 
 ---
 
