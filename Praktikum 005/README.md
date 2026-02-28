@@ -56,6 +56,11 @@
 ![Inline Styling (CSS-in-JS)](public/docs/langkah-6a.png)
 ![Inline Styling (CSS-in-JS)](public/docs/langkah-6b.png)
 
+### 7. Kombinasi Global CSS + CSS Module
+
+![Kombinasi Global CSS + CSS Module](public/docs/langkah-7a.png)
+![Kombinasi Global CSS + CSS Module](public/docs/langkah-7b.png)
+
 ---
 
 ## Tugas Mandiri
