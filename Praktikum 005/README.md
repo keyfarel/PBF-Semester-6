@@ -51,6 +51,11 @@
 ![Styling untuk Pages (Global CSS)](public/docs/langkah-5e.png)
 ![Styling untuk Pages (Global CSS)](public/docs/langkah-5f.png)
 
+### 6. Inline Styling (CSS-in-JS)
+
+![Inline Styling (CSS-in-JS)](public/docs/langkah-6a.png)
+![Inline Styling (CSS-in-JS)](public/docs/langkah-6b.png)
+
 ---
 
 ## Tugas Mandiri
