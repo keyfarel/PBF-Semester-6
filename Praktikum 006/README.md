@@ -27,6 +27,14 @@
 ![modify document language](public/docs/langkah-2a.png)
 *modify document language*
 
+### 3. Pengaturan Title per Halaman
+
+![update title index.tsx](public/docs/langkah-3a.png)
+*update title index.tsx*
+
+![hasil pengaturan home page](public/docs/langkah-3b.png)
+*hasil pengaturan home page*
+
 ---
 
 ## Tugas Mandiri
