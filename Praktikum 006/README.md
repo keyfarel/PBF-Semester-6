@@ -85,6 +85,17 @@
 ## Tugas Mandiri
 
 ### Tugas 1
+![mengunduh gambar 404](public/docs/tugas-1a.png)
+*mengunduh gambar 404*
+
+![meletakkan gambar di folder public](public/docs/tugas-1b.png)
+*meletakkan gambar di folder public*
+
+![modifikasi kode custom error page](public/docs/tugas-1c.png)
+*modifikasi kode custom error page*
+
+![hasil halaman 404](public/docs/tugas-1d.png)
+*hasil halaman 404*
 
 ---
 
