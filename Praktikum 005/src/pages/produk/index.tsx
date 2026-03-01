@@ -1,3 +1,4 @@
+import ProductView from "@/views/produk";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
@@ -20,7 +21,11 @@ const Produk = () => {
         return null;
     }
 
-    return <div>Produk User Page</div>;
+    return (
+        <>
+            <ProductView />
+        </>
+    );
 };
 
 export default Produk;
