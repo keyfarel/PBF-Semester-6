@@ -65,6 +65,21 @@
 
 ![hasil halaman 404](public/docs/langkah-5f.png)
 *hasil halaman 404*
+
+### 6. Menampilkan Gambar dari Folder Public
+
+![mengunduh gambar 404](public/docs/langkah-6a.png)
+*mengunduh gambar 404*
+
+![meletakkan gambar di folder public](public/docs/langkah-6b.png)
+*meletakkan gambar di folder public*
+
+![modifikasi kode custom error page](public/docs/langkah-6c.png)
+*modifikasi kode custom error page*
+
+![hasil halaman 404](public/docs/langkah-6d.png)
+*hasil halaman 404*
+
 ---
 
 ## Tugas Mandiri
