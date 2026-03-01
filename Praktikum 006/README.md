@@ -35,6 +35,16 @@
 ![hasil pengaturan home page](public/docs/langkah-3b.png)
 *hasil pengaturan home page*
 
+### 4. Membuat Custom Error Page (404)
+
+![membuat custom error page](public/docs/langkah-4a.png)
+*membuat custom error page*
+
+![membuat kode   custom error page](public/docs/langkah-4b.png)
+*membuat kode custom error page*
+
+![hasil halaman 404](public/docs/langkah-4c.png)
+*hasil halaman 404*
 ---
 
 ## Tugas Mandiri
