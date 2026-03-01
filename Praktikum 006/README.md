@@ -97,6 +97,14 @@
 ![hasil halaman 404](public/docs/tugas-1d.png)
 *hasil halaman 404*
 
+### Tugas 2
+
+![kode custom error page](public/docs/tugas-2a.png)
+*kode custom error page*
+
+![hasil custom 404](public/docs/tugas-2b.png)
+*hasil custom 404*
+
 ---
 
 ## F. Pertanyaan Refleksi
