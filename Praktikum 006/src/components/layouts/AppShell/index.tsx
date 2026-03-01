@@ -4,6 +4,7 @@ import Navbar from "../navbar";
 const disableNavbar = [
   "/auth/login",
   "/auth/register",
+  "/404",
 ];
 
 type AppShellProps = {

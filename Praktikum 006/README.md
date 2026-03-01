@@ -45,6 +45,26 @@
 
 ![hasil halaman 404](public/docs/langkah-4c.png)
 *hasil halaman 404*
+
+### 5. Styling Halaman 404
+
+![membuat custom error style module](public/docs/langkah-5a.png)
+*membuat custom error style module*
+
+![kode style module](public/docs/langkah-5b.png)
+*kode style module*
+
+![kode halaman 404](public/docs/langkah-5c.png)
+*kode halaman 404*
+
+![hasil halaman 404](public/docs/langkah-5d.png)
+*hasil halaman 404*
+
+![disable navbar](public/docs/langkah-5e.png)
+*disable navbar*
+
+![hasil halaman 404](public/docs/langkah-5f.png)
+*hasil halaman 404*
 ---
 
 ## Tugas Mandiri
