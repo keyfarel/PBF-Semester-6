@@ -24,6 +24,16 @@
 ![home page UI](public/docs/langkah-1b.png)
 *home page UI*
 
+### 2. Membuat API Produk
+
+![Buat file produk.ts](public/docs/langkah-2a.png)
+*Buat file produk.ts*
+
+![Buat kode api produk](public/docs/langkah-2b.png)
+*Buat kode api produk*
+
+![Test API](public/docs/langkah-2c.png)
+*Test API*  
 
 ---
 
