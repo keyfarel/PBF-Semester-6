@@ -17,9 +17,9 @@ const Custom404 = () => {
           <p className={styles.error__description}>
             Mohon maaf, halaman yang Anda tuju mungkin telah dihapus, dipindahkan, atau Anda salah memasukkan URL.
           </p>
-          {/* <Link href="/" className={styles.error__button}>
+          <Link href="/" className={styles.error__button}>
             Kembali ke Beranda
-          </Link> */}
+          </Link>
         </div>
       </div>
     </>

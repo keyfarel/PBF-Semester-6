@@ -105,6 +105,13 @@
 ![hasil custom 404](public/docs/tugas-2b.png)
 *hasil custom 404*
 
+### Tugas 3
+
+![kode custom error kembali ke beranda](public/docs/tugas-3a.png)
+*kode custom error kembali ke beranda*
+
+![hasil custom error kembali ke beranda](public/docs/tugas-3b.png)
+*hasil custom error kembali ke beranda*
 ---
 
 ## F. Pertanyaan Refleksi
