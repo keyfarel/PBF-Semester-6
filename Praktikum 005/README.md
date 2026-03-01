@@ -1,4 +1,4 @@
-# Laporan Praktikum 2 - Pemrograman Berbasis Framework
+# Laporan Praktikum 5 - Pemrograman Berbasis Framework
 
 **Nama:** Key Firdausi Alfarel  
 **NIM:** 2341729186  
@@ -27,7 +27,6 @@
 ## Langkah-Langkah Praktikum
 
 ### 1. Global CSS
-
 ![global.css Code](public/docs/langkah-1a.png)
 *global.css Code*
 
@@ -35,7 +34,6 @@
 *_app.tsx Code*
 
 ### 2. CSS Module (Local Scope)
-
 ![Navbar Folder](public/docs/langkah-2a.png)
 *Navbar Folder*
 
@@ -52,7 +50,6 @@
 *Navbar UI*
 
 ### 3. Styling untuk Pages (CSS Module)
-
 ![Login Folder](public/docs/langkah-3a.png)
 *Login Folder*
 
@@ -66,7 +63,6 @@
 *Login Code Update*
 
 ### 4. Styling untuk Components (CSS Module)
-
 ![App Shell Code](public/docs/langkah-4a.png)
 *App Shell Code*
 
@@ -80,7 +76,6 @@
 *Login Console*
 
 ### 5. Refactoring Struktur Project (Best Practice)
-
 ![Login Folder](public/docs/langkah-5a.png)
 *Login Folder*
 
@@ -100,7 +95,6 @@
 *Login UI*
 
 ### 6. Inline Styling (CSS-in-JS)
-
 ![Login Inline Styling](public/docs/langkah-6a.png)
 *Login Inline Styling*
 
@@ -108,7 +102,6 @@
 *Login UI Update*
 
 ### 7. Kombinasi Global CSS + CSS Module
-
 ![Global CSS Update](public/docs/langkah-7a.png)
 *Global CSS Update*
 
@@ -116,7 +109,6 @@
 *Update Navbar*
 
 ### 8. SCSS (SASS)
-
 ![package.json Update add sass](public/docs/langkah-8a.png)
 *package.json Update add sass*
 
@@ -139,7 +131,6 @@
 *login ui update*
 
 ### 9. Tailwind CSS
-
 ![install tailwind](public/docs/langkah-9a.png)
 *install tailwind*
 
@@ -160,7 +151,6 @@
 ## Tugas Mandiri
 
 ### Tugas 1
-
 ![register view code](public/docs/tugas-1a.png)
 *register view code*
 
@@ -174,7 +164,6 @@
 *register ui update*
 
 ### Tugas 2
-
 ![product pages folder](public/docs/tugas-2a.png)
 *product pages folder*
 
@@ -188,7 +177,6 @@
 *product pages ui update*
 
 ### Tugas 3
-
 ![product pages hero section update](public/docs/tugas-3a.png)
 *product pages hero section update*
 
