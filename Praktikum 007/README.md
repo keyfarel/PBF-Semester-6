@@ -35,6 +35,13 @@
 ![Test API](public/docs/langkah-2c.png)
 *Test API*  
 
+### 3. Fetch Data API di Frontend
+
+![Fetch data API](public/docs/langkah-3a.png)
+*Fetch data API*
+
+![Produk page UI](public/docs/langkah-3b.png)
+*Produk page UI*
 ---
 
 ## Tugas Mandiri
