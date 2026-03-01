@@ -84,7 +84,10 @@
 ## Tugas Mandiri
 
 ### Tugas 1
-
+![Tugas 1](public/docs/tugas-1a.png)
+![Tugas 1](public/docs/tugas-1b.png)
+![Tugas 1](public/docs/tugas-1c.png)
+![Tugas 1](public/docs/tugas-1d.png)
 
 ### Tugas 2
 
