@@ -14,13 +14,19 @@
 
 ## Langkah-Langkah Praktikum
 
-### 1. Global CSS
+### 1. Menjalankan Project
 
 ![run praktikum-006](public/docs/langkah-1a.png)
 *run praktikum-006*
 
 ![home page UI](public/docs/langkah-1b.png)
 *home page UI*
+
+### 2. Membuat Custom Document
+
+![modify document language](public/docs/langkah-2a.png)
+*modify document language*
+
 ---
 
 ## Tugas Mandiri
