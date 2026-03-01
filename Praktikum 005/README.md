@@ -99,6 +99,10 @@
 ![Tugas 2](public/docs/tugas-2g.png)
 
 ### Tugas 3
+![Tugas 3](public/docs/tugas-3a.png)
+![Tugas 3](public/docs/tugas-3b.png)
+![Tugas 3](public/docs/tugas-3c.png)
+![Tugas 3](public/docs/tugas-3d.png)
 
 ---
 
