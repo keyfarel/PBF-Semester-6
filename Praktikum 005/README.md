@@ -71,6 +71,14 @@
 ![SCSS (SASS)](public/docs/langkah-8f.png)
 ![SCSS (SASS)](public/docs/langkah-8g.png)
 
+### 9. Tailwind CSS
+
+![Tailwind CSS](public/docs/langkah-9a.png)
+![Tailwind CSS](public/docs/langkah-9b.png)
+![Tailwind CSS](public/docs/langkah-9c.png)
+![Tailwind CSS](public/docs/langkah-9d.png)
+![Tailwind CSS](public/docs/langkah-9e.png)
+
 ---
 
 ## Tugas Mandiri
