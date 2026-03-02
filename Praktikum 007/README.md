@@ -163,6 +163,26 @@
 
 ### Tugas 1
 
+![Buat file seed.ts](public/docs/tugas-1a.png)
+
+*Buat file seed.ts*
+
+![Modifikasi file seed.ts](public/docs/tugas-1b.png)
+
+*Modifikasi file seed.ts*
+
+![http://localhost:3000/api/seed](public/docs/tugas-1c.png)
+
+*http://localhost:3000/api/seed*
+
+![http://localhost:3000/api/produk](public/docs/tugas-1d.png)
+
+*http://localhost:3000/api/produk*
+
+![http://localhost:3000/produk](public/docs/tugas-1e.png)
+
+*http://localhost:3000/produk*
+
 ---
 
 ## F. Pertanyaan Refleksi
