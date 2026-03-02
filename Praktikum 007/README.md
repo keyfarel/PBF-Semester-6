@@ -96,6 +96,24 @@
 ![Collections](public/docs/langkah-5s.png)
 *Collections*
 
+### 6. – Install Firebase
+
+![npm install firebase](public/docs/langkah-6a.png)
+
+*npm install firebase*
+
+![Buat folder dan file ts pada pages utlis/db/firebase.ts](public/docs/langkah-6b.png)
+
+*Buat folder dan file ts pada pages utlis/db/firebase.ts*
+
+![Copy paste yang ada pada kotak merah ke file firebase.ts](public/docs/langkah-6c.png)
+
+*Copy paste yang ada pada kotak merah ke file firebase.ts*
+
+![Copy paste yang ada pada kotak merah ke file firebase.ts](public/docs/langkah-6d.png)
+*Copy paste yang ada pada kotak merah ke file firebase.ts*
+
+
 ---
 
 ## Tugas Mandiri
