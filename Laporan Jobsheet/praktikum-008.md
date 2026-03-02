@@ -22,62 +22,62 @@
 
 ### 1. Setup Data Produk
 
-![membuat file api/products.ts](public/docs/langkah-1a.png)  
+![membuat file api/products.ts](docs/praktikum-008/langkah-1a.png)  
 
 *membuat file api/products.ts*
 
-![cek browser api](public/docs/langkah-1b.png)  
+![cek browser api](docs/praktikum-008/langkah-1b.png)  
 
 *cek browser api*
 
 ### 2. Implementasi CSR dengan useEffect
 
 
-![membuat file views/products.tsx](public/docs/langkah-2a.png)  
+![membuat file views/products.tsx](docs/praktikum-008/langkah-2a.png)  
 
 *membuat file views/products.tsx*
 
-![kode views/products.tsx](public/docs/langkah-2b.png)  
+![kode views/products.tsx](docs/praktikum-008/langkah-2b.png)  
 
 *kode views/products.tsx*
 
-![membuat file produk/index.tsx](public/docs/langkah-2c.png)  
+![membuat file produk/index.tsx](docs/praktikum-008/langkah-2c.png)  
 
 *membuat file produk/index.tsx*
 
-![tampilan produk](public/docs/langkah-2d.png)  
+![tampilan produk](docs/praktikum-008/langkah-2d.png)  
 
 *tampilan produk*
 
 ### 3. Implementasi Skeleton Loading
 
-![kode views/products.tsx](public/docs/langkah-3a.png)  
+![kode views/products.tsx](docs/praktikum-008/langkah-3a.png)  
 
 *kode views/products.tsx*
 
-![kode product.module.scss](public/docs/langkah-3b.png)  
+![kode product.module.scss](docs/praktikum-008/langkah-3b.png)  
 
 *kode product.module.scss*
 
-![tampilan Skeleton Loading](public/docs/langkah-3c.png)  
+![tampilan Skeleton Loading](docs/praktikum-008/langkah-3c.png)  
 
 *tampilan Skeleton Loading*
 
-![tampilan produk](public/docs/langkah-3d.png)  
+![tampilan produk](docs/praktikum-008/langkah-3d.png)  
 
 *tampilan produk*
 
 ### 4. Implementasi SWR
 
-![membuat file utils/swr/fetcher.ts](public/docs/langkah-5a.png)  
+![membuat file utils/swr/fetcher.ts](docs/praktikum-008/langkah-5a.png)  
 
 *membuat file utils/swr/fetcher.ts*
 
-![kode utils/swr/fetcher.ts](public/docs/langkah-5b.png)  
+![kode utils/swr/fetcher.ts](docs/praktikum-008/langkah-5b.png)  
 
 *kode utils/swr/fetcher.ts*
 
-![modifikasi produk/index.tsx](public/docs/langkah-5c.png)  
+![modifikasi produk/index.tsx](docs/praktikum-008/langkah-5c.png)  
 
 *modifikasi produk/index.tsx*
 
@@ -111,19 +111,19 @@ Proses *rendering* kode HTML dilakukan **hanya satu kali saat *build time*** (wa
 
 ### **2. Tugas 2**  
 
-![kode views/products.tsx](public/docs/tugas-2a.png)  
+![kode views/products.tsx](docs/praktikum-008/tugas-2a.png)  
 
 *kode views/products.tsx*
 
-![kode product.module.scss](public/docs/tugas-2b.png)  
+![kode product.module.scss](docs/praktikum-008/tugas-2b.png)  
 
 *kode product.module.scss*
 
-![tampilan Skeleton Loading](public/docs/tugas-2c.png)  
+![tampilan Skeleton Loading](docs/praktikum-008/tugas-2c.png)  
 
 *tampilan Skeleton Loading*
 
-![tampilan produk](public/docs/tugas-2d.png)  
+![tampilan produk](docs/praktikum-008/tugas-2d.png)  
 
 *tampilan produk*
 
@@ -131,18 +131,18 @@ Proses *rendering* kode HTML dilakukan **hanya satu kali saat *build time*** (wa
 
 Refactoring manajemen *data fetching* dari penggunaan `useEffect` manual beralih ke *library* pengelolaan data *fetching* reaktif **SWR** (Stale-While-Revalidate). Ini menyederhanakan kode secara drastis (yang awalnya di-_handle_ dengan `useState` dan `useEffect`, kini hanya menjadi 1 baris *destructuring* dari `useSWR`), sekaligus memberikan sistem *caching* dan fitur *revalidate* di layar latar.
 
-![membuat file utils/swr/fetcher.ts](public/docs/langkah-5a.png)  
+![membuat file utils/swr/fetcher.ts](docs/praktikum-008/langkah-5a.png)  
 
 *membuat file utils/swr/fetcher.ts*
 
-![kode utils/swr/fetcher.ts](public/docs/langkah-5b.png)  
+![kode utils/swr/fetcher.ts](docs/praktikum-008/langkah-5b.png)  
 
 *kode utils/swr/fetcher.ts*
 
-![modifikasi produk/index.tsx](public/docs/langkah-5c.png)  
+![modifikasi produk/index.tsx](docs/praktikum-008/langkah-5c.png)  
 
 *modifikasi produk/index.tsx*
 
-![tampilan produk](public/docs/tugas-2d.png)  
+![tampilan produk](docs/praktikum-008/tugas-2d.png)  
 
 *tampilan produk*
