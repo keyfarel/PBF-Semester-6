@@ -73,7 +73,7 @@
 
 **Tugas Individu**
 
-**1. Jelaskan perbedaan:**
+### **1. Jelaskan perbedaan:**
 
 - **Client Side Rendering (CSR):**
 Proses *rendering* antarmuka halaman web sepenuhnya dilakukan di sisi *browser/client* (dengan JavaScript) setelah pengunduhan HTML kosong/minim rampung. 
@@ -90,4 +90,17 @@ Proses *rendering* kode HTML dilakukan **hanya satu kali saat *build time*** (wa
   - **Kelebihan:** Performa yang paling cepat dan superior karena HTML sudah siap disajikan lewat *cache* CDN, ramah SEO, *server resource* yang sangat sedikit.
   - **Kekurangan:** Data otomatis bisa menjadi basi (*stale*) karena tidak di-*update* secara *real-time* layaknya SSR. Jika ada konten/data baru, aplikasi harus di-*build* ulang (kecuali menggunakan pendekatan hibrida seperti *Incremental Static Regeneration*/ISR di Next.js).
 
-  
+
+### **2. Tugas 2**  
+
+![kode views/products.tsx](public/docs/tugas-2a.png)  
+*kode views/products.tsx*
+
+![kode product.module.scss](public/docs/tugas-2b.png)  
+*kode product.module.scss*
+
+![tampilan Skeleton Loading](public/docs/tugas-2c.png)  
+*tampilan Skeleton Loading*
+
+![tampilan produk](public/docs/tugas-2d.png)  
+*tampilan produk*

@@ -45,7 +45,8 @@ const ProductView = ({ products, onRefresh }: ProductViewProps) => {
                         {[...Array(8)].map((_, index) => (
                             <div
                                 key={index}
-                                className="group relative bg-white rounded-3xl p-6 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 ease-out border border-gray-100 flex flex-col"
+                                className={`${styles.productCard} group relative bg-white rounded-3xl p-6 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 ease-out border border-gray-100 flex flex-col`}
+                                style={{ animationDelay: `${Math.min(index * 0.1, 1)}s` }}
                             >
                                 <div className="flex justify-between items-start mb-5 relative z-10">
                                     <div className={`${styles.skeleton} px-3.5 py-1.5 h-6 w-20 rounded-full`} />
@@ -66,10 +67,11 @@ const ProductView = ({ products, onRefresh }: ProductViewProps) => {
                     </div>
                 ) : (
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                        {products.map((product) => (
+                        {products.map((product, index) => (
                             <div
                                 key={product.id}
-                                className="group relative bg-white rounded-3xl p-6 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 ease-out border border-gray-100 flex flex-col"
+                                className={`${styles.productCard} group relative bg-white rounded-3xl p-6 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 ease-out border border-gray-100 flex flex-col`}
+                                style={{ animationDelay: `${Math.min(index * 0.1, 1)}s` }}
                             >
                                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-50/50 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
 
