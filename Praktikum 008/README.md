@@ -51,6 +51,21 @@
 
 ![tampilan produk](public/docs/langkah-3d.png)  
 *tampilan produk*
+
+### 4. Implementasi SWR
+
+![membuat file utils/swr/fetcher.ts](public/docs/langkah-4a.png)  
+*membuat file utils/swr/fetcher.ts*
+
+![kode utils/swr/fetcher.ts](public/docs/langkah-4b.png)  
+*kode utils/swr/fetcher.ts*
+
+![modifikasi produk/index.tsx](public/docs/langkah-4c.png)  
+*modifikasi produk/index.tsx*
+
+**Perbedaan `useEffect` Manual vs SWR:**
+- **`useEffect` Manual:** Membutuhkan pengelolaan *state* tambahan yang rumit (seperti `useState` untuk data, status *loading*, dan asinkron *error*). Setiap kali komponen di-*mount*, ia selalu melakukan *fetch* ulang secara naif dari awal yang bisa membebani *server* dan memperlambat *render* jika tidak ditangani dengan baik.
+- **SWR (Stale-While-Revalidate):** Pendekatan modern dari Vercel terintegrasi untuk *data fetching*. SWR akan mengembalikan data dari *cache* terlebih dahulu (sehingga *UI* langsung tampil/sangat cepat responsnya), lalu ia mengirimkan *request fetch* secara *background* diam-diam untuk memvalidasi/mendapatkan data terbaru, dan barulah merender ulang *React tree* jika ada pembaruan di server. Kelebihan tambahannya meliputi: validasi ulang saat halaman kembali difokuskan (*revalidate on focus*), penanganan status `isLoading` dan `error` otomatis dalam 1 baris kode (sehingga sangat mengurangi kode *boilerplate*).
 ---
 
 ## Tugas Mandiri
