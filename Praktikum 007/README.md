@@ -1,4 +1,4 @@
-# Laporan Praktikum 6 - Pemrograman Berbasis Framework
+# Laporan Praktikum 7 - Pemrograman Berbasis Framework
 
 **Nama:** Key Firdausi Alfarel  
 **NIM:** 2341729186  
@@ -112,6 +112,16 @@
 
 ![Copy paste yang ada pada kotak merah ke file firebase.ts](public/docs/langkah-6d.png)
 *Copy paste yang ada pada kotak merah ke file firebase.ts*
+
+### 7. Konfigurasi Environment Variable
+
+![Konfigurasi Environment Variable](public/docs/langkah-7a.png)
+
+*Konfigurasi Environment Variable*
+
+![Konfigurasi Environment Variable](public/docs/langkah-7b.png)
+
+*Konfigurasi Environment Variable*
 
 
 ---
