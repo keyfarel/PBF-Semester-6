@@ -123,6 +123,11 @@
 
 *Konfigurasi Environment Variable*
 
+### 8. Import dan Export Firebase
+
+![Import dan Export Firebase](public/docs/langkah-8a.png)
+
+*Import dan Export Firebase*
 
 ---
 
