@@ -38,6 +38,19 @@
 ![tampilan produk](public/docs/langkah-2d.png)  
 *tampilan produk*
 
+### 3. Implementasi Skeleton Loading
+
+![kode views/products.tsx](public/docs/langkah-3a.png)  
+*kode views/products.tsx*
+
+![kode product.module.scss](public/docs/langkah-3b.png)  
+*kode product.module.scss*
+
+![tampilan Skeleton Loading](public/docs/langkah-3c.png)  
+*tampilan Skeleton Loading*
+
+![tampilan produk](public/docs/langkah-3d.png)  
+*tampilan produk*
 ---
 
 ## Tugas Mandiri
