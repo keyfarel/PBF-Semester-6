@@ -183,6 +183,28 @@
 
 *http://localhost:3000/produk*
 
+### Tugas 2
+
+![Modifikasi file index.ts](public/docs/tugas-2a.png)
+
+*Modifikasi file index.ts*
+
+![Modifikasi file index.ts](public/docs/tugas-2b.png)
+
+*Modifikasi file index.ts*
+
+![http://localhost:3000/api/seed](public/docs/tugas-2c.png)
+
+*http://localhost:3000/api/seed*
+
+![http://localhost:3000/api/produk](public/docs/tugas-2d.png)
+
+*http://localhost:3000/api/produk*
+
+![http://localhost:3000/produk](public/docs/tugas-2e.png)
+
+*http://localhost:3000/produk*
+
 ---
 
 ## F. Pertanyaan Refleksi

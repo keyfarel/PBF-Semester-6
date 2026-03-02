@@ -6,9 +6,9 @@ export default async function handler(
   res: NextApiResponse
 ) {
   const dummyProducts = [
-    { name: "Kemeja Flanel", price: 150000, size: "L" },
-    { name: "Celana Chino", price: 200000, size: "32" },
-    { name: "Jaket Denim", price: 350000, size: "XL" }
+    { name: "Kemeja Flanel", price: 150000, size: "L", category: "Fashion" },
+    { name: "Celana Chino", price: 200000, size: "32", category: "Fashion" },
+    { name: "Jaket Denim", price: 350000, size: "XL", category: "Outerwear" }
   ];
 
   try {
