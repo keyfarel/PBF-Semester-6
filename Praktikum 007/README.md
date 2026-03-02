@@ -139,6 +139,24 @@
 
 *modifikasi file servicefirebase.js*
 
+### 10. API Mengambil Data Firebase
+
+![Edit pages/api/product.js](public/docs/langkah-10a.png)
+
+*Edit pages/api/product.js*
+
+![Jalankan browser](public/docs/langkah-10b.png)
+
+*Jalankan browser*
+
+![Modifikasi index.ts](public/docs/langkah-10c.png)
+
+*Modifikasi index.ts*
+
+![Jalankan browser](public/docs/langkah-10d.png)
+
+*Jalankan browser*
+
 ---
 
 ## Tugas Mandiri

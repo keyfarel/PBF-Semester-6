@@ -1,35 +1,39 @@
-import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
 type ProductType = {
   id: string;
-  nama: string;
-  harga: number;
-  ukuran: string;
-  warna: string;
+  name: string;
+  price: number;
+  size: string;
 };
 
 const Kategori = () => {
-  const { push } = useRouter();
-  const [isLogin, setIsLogin] = useState(true); // sementara true agar tidak redirect terus
+  // const [isLogin, setIsLogin] = useState(false);
+  // const { push } = useRouter();
+
   const [products, setProducts] = useState<ProductType[]>([]);
+  const router = useRouter();
 
-  // Cek login
-  useEffect(() => {
-    if (!isLogin) {
-      push("/auth/login");
-    }
-  }, [isLogin, push]);
+  // Contoh redirect jika mau pakai isLogin
+  // if (!isLogin) {
+  //   router.push("/login");
+  // }
 
-  // Fetch data produk
-  useEffect(() => {
+ useEffect(() => {
     fetch("/api/produk")
-      .then((response) => response.json())
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
       .then((responseData) => {
-        setProducts(responseData.data);
+        setProducts(responseData.data); 
+        console.log("fetching produk:", responseData.data);
       })
       .catch((error) => {
-        console.error("Error fetching produk:", error);
+        console.error("Error fetch produk:", error);
       });
   }, []);
 
@@ -37,15 +41,18 @@ const Kategori = () => {
     <div>
       <h1>Daftar Produk</h1>
 
-      {products.map((product) => (
-        <div key={product.id}>
-          <h2>{product.nama}</h2>
-          <p>Harga: {product.harga}</p>
-          <p>Ukuran: {product.ukuran}</p>
-          <p>Warna: {product.warna}</p>
-          <hr />
-        </div>
-      ))}
+      {products.length === 0 ? (
+        <p>Loading...</p>
+      ) : (
+        products.map((product) => (
+          <div key={product.id}>
+            <p>Nama: {product.name}</p>
+            <p>Harga: {product.price}</p>
+            <p>Ukuran: {product.size}</p>
+            <hr />
+          </div>
+        ))
+      )}
     </div>
   );
 };
