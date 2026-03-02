@@ -42,6 +42,60 @@
 
 ![Produk page UI](public/docs/langkah-3b.png)
 *Produk page UI*
+
+### 5. Setup Firebase
+
+![Go to Firebase Console](public/docs/langkah-5a.png)
+*Go to Firebase Console*
+
+![Get started](public/docs/langkah-5b.png)
+*Get started*
+
+![Create new project](public/docs/langkah-5c.png)
+*Create new project*
+
+![Continue Create](public/docs/langkah-5d.png)
+*Continue Create*
+
+![Loading Firebase Console](public/docs/langkah-5f.png)
+*Loading Firebase Console*
+
+![Complete Create](public/docs/langkah-5g.png)
+*Complete Create*
+
+![Add App](public/docs/langkah-5h.png)
+*Add App*
+
+![Naming App](public/docs/langkah-5i.png)
+*Naming App*
+
+![Back to Console](public/docs/langkah-5k.png)
+*Back to Console*
+
+![Create database](public/docs/langkah-5l.png)
+*Create database*
+
+![Select locations](public/docs/langkah-5m.png)
+*Select locations*
+
+![Confirm Create](public/docs/langkah-5n.png)
+*Confirm Create*
+
+![Firebase Database Console](public/docs/langkah-5o.png)
+*Firebase Database Console*
+
+![Config rules](public/docs/langkah-5p.png)
+*Config rules*
+
+![Create Collections](public/docs/langkah-5q.png)
+*Create Collections*
+
+![Add Collections](public/docs/langkah-5r.png)
+*Add Collections*
+
+![Collections](public/docs/langkah-5s.png)
+*Collections*
+
 ---
 
 ## Tugas Mandiri
