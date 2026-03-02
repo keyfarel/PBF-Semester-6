@@ -129,6 +129,16 @@
 
 *Import dan Export Firebase*
 
+### 9. Import dan Export Firebase
+
+![Buat file ulits/db/servicefirebase.js](public/docs/langkah-9a.png)
+
+*Buat file ulits/db/servicefirebase.js*
+
+![modifikasi file servicefirebase.js](public/docs/langkah-9b.png)
+
+*modifikasi file servicefirebase.js*
+
 ---
 
 ## Tugas Mandiri
