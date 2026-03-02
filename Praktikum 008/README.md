@@ -54,13 +54,13 @@
 
 ### 4. Implementasi SWR
 
-![membuat file utils/swr/fetcher.ts](public/docs/langkah-4a.png)  
+![membuat file utils/swr/fetcher.ts](public/docs/langkah-5a.png)  
 *membuat file utils/swr/fetcher.ts*
 
-![kode utils/swr/fetcher.ts](public/docs/langkah-4b.png)  
+![kode utils/swr/fetcher.ts](public/docs/langkah-5b.png)  
 *kode utils/swr/fetcher.ts*
 
-![modifikasi produk/index.tsx](public/docs/langkah-4c.png)  
+![modifikasi produk/index.tsx](public/docs/langkah-5c.png)  
 *modifikasi produk/index.tsx*
 
 **Perbedaan `useEffect` Manual vs SWR:**
@@ -109,11 +109,14 @@ Proses *rendering* kode HTML dilakukan **hanya satu kali saat *build time*** (wa
 
 Refactoring manajemen *data fetching* dari penggunaan `useEffect` manual beralih ke *library* pengelolaan data *fetching* reaktif **SWR** (Stale-While-Revalidate). Ini menyederhanakan kode secara drastis (yang awalnya di-_handle_ dengan `useState` dan `useEffect`, kini hanya menjadi 1 baris *destructuring* dari `useSWR`), sekaligus memberikan sistem *caching* dan fitur *revalidate* di layar latar.
 
-![membuat file utils/swr/fetcher.ts](public/docs/langkah-4a.png)  
+![membuat file utils/swr/fetcher.ts](public/docs/langkah-5a.png)  
 *membuat file utils/swr/fetcher.ts*
 
-![kode utils/swr/fetcher.ts](public/docs/langkah-4b.png)  
+![kode utils/swr/fetcher.ts](public/docs/langkah-5b.png)  
 *kode utils/swr/fetcher.ts*
 
-![modifikasi produk/index.tsx](public/docs/langkah-4c.png)  
+![modifikasi produk/index.tsx](public/docs/langkah-5c.png)  
 *modifikasi produk/index.tsx*
+
+![tampilan produk](public/docs/tugas-2d.png)  
+*tampilan produk*
