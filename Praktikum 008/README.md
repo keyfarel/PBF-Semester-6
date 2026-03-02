@@ -66,14 +66,28 @@
 **Perbedaan `useEffect` Manual vs SWR:**
 - **`useEffect` Manual:** Membutuhkan pengelolaan *state* tambahan yang rumit (seperti `useState` untuk data, status *loading*, dan asinkron *error*). Setiap kali komponen di-*mount*, ia selalu melakukan *fetch* ulang secara naif dari awal yang bisa membebani *server* dan memperlambat *render* jika tidak ditangani dengan baik.
 - **SWR (Stale-While-Revalidate):** Pendekatan modern dari Vercel terintegrasi untuk *data fetching*. SWR akan mengembalikan data dari *cache* terlebih dahulu (sehingga *UI* langsung tampil/sangat cepat responsnya), lalu ia mengirimkan *request fetch* secara *background* diam-diam untuk memvalidasi/mendapatkan data terbaru, dan barulah merender ulang *React tree* jika ada pembaruan di server. Kelebihan tambahannya meliputi: validasi ulang saat halaman kembali difokuskan (*revalidate on focus*), penanganan status `isLoading` dan `error` otomatis dalam 1 baris kode (sehingga sangat mengurangi kode *boilerplate*).
----
-
-## Tugas Mandiri
-
-### Tugas 1
-
 
 ---
 
-## Pertanyaan Evaluasi
+## Tugas Praktikum
 
+**Tugas Individu**
+
+**1. Jelaskan perbedaan:**
+
+- **Client Side Rendering (CSR):**
+Proses *rendering* antarmuka halaman web sepenuhnya dilakukan di sisi *browser/client* (dengan JavaScript) setelah pengunduhan HTML kosong/minim rampung. 
+  - **Kelebihan:** Sangat interaktif bak aplikasi *native* setelah muatan awal (_Single Page Application_), transisi halaman mulus tanpa *reload*.
+  - **Kekurangan:** *Initial load* (waktu muat pertama) cenderung lambat karena mengunduh *bundle* JS, kurang optimal untuk SEO jika *crawler* tidak mengeksekusi JS.
+
+- **Server Side Rendering (SSR):**
+Proses *rendering* kode HTML dari komponen React dieksekusi setiap kali ada permintaan (request) langsung di server, untuk kemudian *file* HTML utuh yang sudah jadi dikirimkan ke *browser*.
+  - **Kelebihan:** *Initial load* cepat (HTML dapat langsung dirender), sangat bagus untuk SEO (*crawler* melihat isi penuh), data yang disajikan selalu terbaru (karena direquest *on-demand*).
+  - **Kekurangan:** Pemrosesan bisa membebani unjuk kerja *server* jika *traffic* sangat tinggi karena setiap satu kunjungan/klik tautan memicu respon penyusunan dari awal di *server* (*slower Time to First Byte*).
+
+- **Static Site Generation (SSG):**
+Proses *rendering* kode HTML dilakukan **hanya satu kali saat *build time*** (waktu kompilasi project atau *deploy*). HTML statis yang dihasilkan disimpan dan disajikan berulang-kali begitu saja melalui CDN dengan sangat cepat.
+  - **Kelebihan:** Performa yang paling cepat dan superior karena HTML sudah siap disajikan lewat *cache* CDN, ramah SEO, *server resource* yang sangat sedikit.
+  - **Kekurangan:** Data otomatis bisa menjadi basi (*stale*) karena tidak di-*update* secara *real-time* layaknya SSR. Jika ada konten/data baru, aplikasi harus di-*build* ulang (kecuali menggunakan pendekatan hibrida seperti *Incremental Static Regeneration*/ISR di Next.js).
+
+  
