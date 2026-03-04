@@ -53,6 +53,36 @@
 
 *http://localhost:3000/produk*
 
+### 4. Uji Perbedaan SSR vs CSR
+
+**Uji 1**
+![Skeleton CSR Muncul](public/docs/langkah-4a.png)
+
+*Skeleton CSR Muncul*
+
+![Skeleton SSR Tidak Muncul](public/docs/langkah-4b.png)
+
+*Skeleton SSR Tidak Muncul*
+
+**Uji 2**
+![Data Fetch di Network CSR muncul](public/docs/langkah-4c.png)
+
+*Data Fetch di Network CSR muncul*
+
+![Data Fetch di Network SSR tidak muncul](public/docs/langkah-4d.png)
+
+*Data Fetch di Network SSR tidak muncul*
+
+
+**Uji 3**
+![Muncul Skeleton dulu](public/docs/langkah-4f.png)
+
+*Muncul Skeleton dulu*
+
+![Langsung muncul data](public/docs/langkah-4e.png)
+
+*Langsung muncul data*
+
 ---
 
 ## Tugas Praktikum
