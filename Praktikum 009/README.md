@@ -29,11 +29,27 @@
 
 
 ### 2. Implementasi getServerSideProps pada server.tsx
+
 ![Modifikasi file server.tsx](public/docs/langkah-2a.png)
 
 *http://localhost:3000/produk/server*
 
 ![http://localhost:3000/produk/server](public/docs/langkah-2b.png)
+
+*http://localhost:3000/produk*
+
+### 3. Refactor Type ( produk type )
+
+![membuat file types/Product.type.ts](public/docs/langkah-3a.png)
+![membuat file types/Product.type.ts](public/docs/langkah-3b.png)
+
+*membuat file types/Product.type.ts*
+
+![modifikasi file server.tsx](public/docs/langkah-3c.png)
+
+*http://localhost:3000/produk/server*
+
+![http://localhost:3000/produk/server](public/docs/langkah-3d.png)
 
 *http://localhost:3000/produk*
 

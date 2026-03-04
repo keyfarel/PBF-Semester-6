@@ -1,12 +1,5 @@
+import type { ProductType } from "@/pages/types/Product.type"; // ← Import type
 import TampilanProduk from "@/views/produk";
-
-type ProductType = {
-  id: string;
-  nama: string;
-  harga: number;
-  image: string;
-  kategori: string;
-};
 
 const HalamanProdukServer = (props: { products: ProductType[] }) => {
   const { products } = props;
@@ -25,7 +18,7 @@ export async function getServerSideProps() {
   const res = await fetch("http://localhost:3000/api/products");
   const response = await res.json();
 
-  const mapped = (response.data ?? []).map((p: any) => ({
+  const mapped: ProductType[] = (response.data ?? []).map((p: any) => ({
     id: p.id,
     nama: p.nama ?? p.name ?? "",
     harga: p.harga ?? p.price ?? 0,
