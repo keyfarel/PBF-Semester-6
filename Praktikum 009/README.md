@@ -89,11 +89,6 @@
 
 ---
 
-## Tugas Praktikum
-
-### **1. Jelaskan perbedaan:**
-
-
 ## E. Studi Analisis
 
 **1. Mengapa SSR lebih baik untuk SEO?**
