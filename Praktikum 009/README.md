@@ -29,6 +29,13 @@
 
 
 ### 2. Implementasi getServerSideProps pada server.tsx
+![Modifikasi file server.tsx](public/docs/langkah-2a.png)
+
+*http://localhost:3000/produk/server*
+
+![http://localhost:3000/produk/server](public/docs/langkah-2b.png)
+
+*http://localhost:3000/produk*
 
 ---
 
