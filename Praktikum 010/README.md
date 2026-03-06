@@ -27,6 +27,20 @@
 
 *Tampilan halaman static*
 
+### 2. Setup Halaman Server
+
+![pages/products/server.tsx](public/docs/langkah-2a.png)
+
+*Buat file baru pada pages/products/server.tsx*
+
+![Modifikasi file server.tsx](public/docs/langkah-2b.png)
+
+*Modifikasi file server.tsx*
+
+![Tampilan halaman server](public/docs/langkah-2c.png)
+
+*Tampilan halaman server*
+
 ---
 
 ## E. Studi Analisis
