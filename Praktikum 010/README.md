@@ -71,6 +71,11 @@
 
 *Tampilan halaman produk/static*
 
+### Uji 2
+
+![Tampilan halaman produk/static](public/docs/uji-2a.png)
+
+*Tampilan halaman produk/static*
 
 
 ---
