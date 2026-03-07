@@ -13,6 +13,8 @@ Setiap materi atau tugas praktikum disimpan dalam foldernya masing-masing:
 - **Praktikum 006**: Pembuatan Custom Document, pengaturan tag title, halaman Error Custom (404), dan rendering static assets.
 - **Praktikum 007**: Pembuatan REST API internal Next.js menggunakan Firebase dan penggabungan operasi CRUD dasar.
 - **Praktikum 008**: Refactor state *data fetching* dari `useEffect` ke `useSWR`, pembuatan UI interaktif dengan *Skeleton Loading* CSS teranimasi, dan pengenalan fundamental perenderan CSR, SSR, SSG.
+- **Praktikum 009**: Implementasi Server-Side Rendering (SSR) menggunakan `getServerSideProps`, setup data produk, dan perbandingan fungsionalitas antara SSR dan CSR.
+- **Praktikum 010**: Implementasi Static Site Generation (SSG) untuk perenderan halaman static dan setup halaman server.
 ## Laporan Praktikum
 
 Akses laporan praktikum melalui link berikut:
@@ -23,6 +25,8 @@ Akses laporan praktikum melalui link berikut:
 - [Laporan Praktikum 6](Laporan%20Jobsheet/praktikum-006.md)
 - [Laporan Praktikum 7](Laporan%20Jobsheet/praktikum-007.md)
 - [Laporan Praktikum 8](Laporan%20Jobsheet/praktikum-008.md)
+- [Laporan Praktikum 9](Laporan%20Jobsheet/praktikum-009.md)
+- [Laporan Praktikum 10](Laporan%20Jobsheet/praktikum-010.md)
 ## Cara Menjalankan
 
 Setiap folder praktikum memiliki dependensinya sendiri. Untuk menjalankan salah satu proyek (misalnya Praktikum 002):
