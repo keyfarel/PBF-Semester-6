@@ -29,17 +29,49 @@
 
 ### 2. Setup Halaman Server
 
-![pages/products/server.tsx](public/docs/langkah-2a.png)
+![Memindahkan Halaman](public/docs/langkah-2a.png)
 
-*Buat file baru pada pages/products/server.tsx*
+*Memindahkan Halaman*
 
-![Modifikasi file server.tsx](public/docs/langkah-2b.png)
+![npm dev](public/docs/langkah-2b.png)
 
-*Modifikasi file server.tsx*
+*npm dev*
 
-![Tampilan halaman server](public/docs/langkah-2c.png)
+![Tampilan npm build](public/docs/langkah-2c.png)
 
-*Tampilan halaman server*
+*Tampilan npm build*
+
+![Execute npm start](public/docs/langkah-2d.png)
+
+*Execute npm start*
+
+![Tampilan npm start](public/docs/langkah-2e.png)
+
+*Tampilan npm start*
+
+![Tampilan halaman produk/static](public/docs/langkah-2f.png)
+
+*Tampilan halaman produk/static*
+
+### Uji 1
+
+![Tambah data di firebase](public/docs/uji-1a.png)
+
+*Tambah data di firebase*
+
+![Tampilan halaman produk](public/docs/uji-1c.png)
+
+*Tampilan halaman produk*
+
+![Tampilan halaman produk/server](public/docs/uji-1d.png)
+
+*Tampilan halaman produk/server*
+
+![Tampilan halaman produk/static](public/docs/uji-1e.png)
+
+*Tampilan halaman produk/static*
+
+
 
 ---
 

@@ -1,5 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import { retrieveProducts } from "@/pages/utils/db/servicefirebase"; // sesuaikan path file kamu
+import { retrieveProducts } from "@/utils/db/servicefirebase"; // sesuaikan path file kamu
 import type { NextApiRequest, NextApiResponse } from "next";
 
 type Data = {

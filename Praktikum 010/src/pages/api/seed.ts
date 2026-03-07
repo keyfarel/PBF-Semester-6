@@ -1,4 +1,4 @@
-import { addData } from "@/pages/utils/db/servicefirebase";
+import { addData } from "@/utils/db/servicefirebase";
 import type { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(
@@ -16,13 +16,13 @@ export default async function handler(
       await addData("products", product);
     }
 
-    return res.status(200).json({ 
-      message: "3 Data berhasil ditembak ke Firestore." 
+    return res.status(200).json({
+      message: "3 Data berhasil ditembak ke Firestore."
     });
   } catch (error) {
-    return res.status(500).json({ 
-      message: "Gagal nembak data", 
-      error 
+    return res.status(500).json({
+      message: "Gagal nembak data",
+      error
     });
   }
 }

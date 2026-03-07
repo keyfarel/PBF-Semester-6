@@ -19,13 +19,14 @@ export default function handler(
     res: NextApiResponse<Data>
 ) {
     const products: Product[] = [
-        {
-            id: 1,
-            name: "Sepatu Sneaker",
-            category: "Sepatu",
-            price: 1200000,
-            image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80",
-        },
+        // {
+        //     id: 1,
+        //     name: "Sepatu Kasogi",
+        //     category: "Sepatu Lain",
+        //     price: 500000,
+        //     // image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80",
+        //     image: "https://"
+        // },
         {
             id: 2,
             name: "Tas Ransel Casual",
