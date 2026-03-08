@@ -1,6 +1,6 @@
 import styles from "./product.module.scss";
+import Link from "next/link"; 
 
-// Export type agar bisa digunakan di file page juga
 export type ProductType = {
     id: number | string;
     name: string;
@@ -45,32 +45,22 @@ const ProductView = ({ products, onRefresh }: ProductViewProps) => {
                         {[...Array(8)].map((_, index) => (
                             <div
                                 key={index}
-                                className={`${styles.productCard} group relative bg-white rounded-3xl p-6 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 ease-out border border-gray-100 flex flex-col`}
-                                style={{ animationDelay: `${Math.min(index * 0.1, 1)}s` }}
+                                className={`${styles.productCard} bg-white rounded-3xl p-6 shadow-sm border border-gray-100 flex flex-col`}
                             >
-                                <div className="flex justify-between items-start mb-5 relative z-10">
-                                    <div className={`${styles.skeleton} px-3.5 py-1.5 h-6 w-20 rounded-full`} />
-                                    <div className={`${styles.skeleton} w-8 h-8 rounded-full`} />
-                                </div>
-                                <div className={`${styles.skeleton} w-full h-48 mb-4 relative z-10 overflow-hidden rounded-2xl`} />
-                                <div className={`${styles.skeleton} h-7 w-3/4 mb-2 relative z-10`} />
-                                <div className="mt-auto pt-4 relative z-10">
-                                    <div className="flex items-end gap-2 mb-4">
-                                        <div className={`${styles.skeleton} h-9 w-1/2`} />
-                                    </div>
-                                    <div className="flex items-center justify-end pt-4 border-t border-gray-100">
-                                        <div className={`${styles.skeleton} h-5 w-16`} />
-                                    </div>
-                                </div>
+                                <div className={`${styles.skeleton} h-48 w-full rounded-2xl mb-4`} />
+                                <div className={`${styles.skeleton} h-6 w-3/4 mb-2`} />
+                                <div className={`${styles.skeleton} h-4 w-1/2`} />
                             </div>
                         ))}
                     </div>
                 ) : (
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                         {products.map((product, index) => (
-                            <div
+                            /* Membungkus kartu dengan Link */
+                            <Link 
+                                href={`/produk/${product.id}`} 
                                 key={product.id}
-                                className={`${styles.productCard} group relative bg-white rounded-3xl p-6 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 ease-out border border-gray-100 flex flex-col`}
+                                className={`${styles.productCard} group relative bg-white rounded-3xl p-6 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 ease-out border border-gray-100 flex flex-col cursor-pointer`}
                                 style={{ animationDelay: `${Math.min(index * 0.1, 1)}s` }}
                             >
                                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-50/50 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
@@ -79,7 +69,7 @@ const ProductView = ({ products, onRefresh }: ProductViewProps) => {
                                     <span className="px-3.5 py-1.5 bg-indigo-50/80 text-indigo-700 text-xs font-bold uppercase tracking-widest rounded-full border border-indigo-100 group-hover:bg-indigo-100 transition-colors">
                                         {product.category ?? "General"}
                                     </span>
-                                    <div className="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 group-hover:text-red-500 group-hover:bg-red-50 transition-colors duration-300 cursor-pointer">
+                                    <div className="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 group-hover:text-red-500 group-hover:bg-red-50 transition-colors duration-300">
                                         <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                                             <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
                                         </svg>
@@ -103,12 +93,12 @@ const ProductView = ({ products, onRefresh }: ProductViewProps) => {
                                     </div>
 
                                     <div className="flex items-center justify-end pt-4 border-t border-gray-100">
-                                        <button className="text-sm font-semibold text-indigo-600 hover:text-indigo-800 transition-colors flex items-center gap-1 opacity-0 group-hover:opacity-100 transform translate-x-2 group-hover:translate-x-0 duration-300">
+                                        <div className="text-sm font-semibold text-indigo-600 group-hover:text-indigo-800 transition-colors flex items-center gap-1 opacity-0 group-hover:opacity-100 transform translate-x-2 group-hover:translate-x-0 duration-300">
                                             Beli <span aria-hidden="true">&rarr;</span>
-                                        </button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Link>
                         ))}
                     </div>
                 )}
