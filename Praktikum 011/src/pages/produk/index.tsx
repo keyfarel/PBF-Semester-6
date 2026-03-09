@@ -16,7 +16,7 @@ const Kategori = () => {
   // }, [isLogin, router]);
 
   // Fetch data
-  const { data, error, isLoading } = useSWR("/api/products", fetcher);
+  const { data, error, isLoading } = useSWR("/api/produk", fetcher);
 
   // Debug (opsional)
   // console.log("data:", data);
