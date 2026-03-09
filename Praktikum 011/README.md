@@ -82,4 +82,20 @@
 
 **Hasil Halaman Produk detail**
 
+### 4. Implementasi SSG
 
+![Modifikasi pada file static.tsx pada folder src/pages/produk/](public/docs/langkah-4b.png)
+
+**Modifikasi pada file static.tsx pada folder src/pages/produk/**
+
+![Modifikasi pada file [produk].tsx pada folder src/pages/produk/](public/docs/langkah-4a.png)
+
+**Modifikasi pada file [produk].tsx pada folder src/pages/produk/**
+
+![Hasil Halaman Produk](public/docs/langkah-4c.png)
+
+**Hasil Halaman Produk**
+
+![Hasil Halaman Produk detail](public/docs/langkah-4d.png)
+
+**Hasil Halaman Produk detail**
