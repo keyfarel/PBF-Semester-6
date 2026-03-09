@@ -17,11 +17,11 @@
 
 ![Modifikasi view Product](public/docs/langkah-1a.png)
 
-**Modifikasi view Product**
+*Modifikasi view Product*
 
 ![Halaman /produk](public/docs/langkah-1b.png)
 
-**Halaman /produk**
+*Halaman /produk*
 
 ![Halaman dinamic route](public/docs/langkah-1c.png)
 
@@ -29,73 +29,102 @@
 
 ![Modifikasi pages/produk/[produk].tsx](public/docs/langkah-2a.png)
 
-**Modifikasi pada file [produk].tsx pada folder src/pages/produk/**
+*Modifikasi pada file [produk].tsx pada folder src/pages/produk/*
 
 ![Modifikasi pages/api/[...produk].tsx](public/docs/langkah-2b.png)
 
-**Pada file produk.ts pada folder pages/api di rename menjadi [[...product]].ts**
+*Pada file produk.ts pada folder pages/api di rename menjadi [[...product]].ts*
 
 ![Modifikasi pages/api/[...produk].tsx](public/docs/langkah-2c.png)
 
-**Modifikasi file [[...produk]].ts pada folder pages/api**
+*Modifikasi file [[...produk]].ts pada folder pages/api*
 
 ![Modifikasi pages/produk/index.tsx](public/docs/langkah-2d.png)
 
-**Modifikasi file produk/index.tsx**
+*Modifikasi file produk/index.tsx*
 
 ![Hasil http://localhost:3000/produk](public/docs/langkah-2e.png)
 
-**Jalankan browser http://localhost:3000/produk/4TX9oCSf0pWVHEyjjG1P"**
+*Jalankan browser http://localhost:3000/produk/4TX9oCSf0pWVHEyjjG1P"*
 
 ![Hasil http://localhost:3000/produk/4TX9oCSf0pWVHEyjjG1P](public/docs/langkah-2f.png)
 
-**Ketika alamat tidak ditemukan maka akan menampilkan status kode 404**
+*Ketika alamat tidak ditemukan maka akan menampilkan status kode 404*
 
 ![Modifikasi detailProduct.module.scss](public/docs/langkah-2-g1.png)
 ![Modifikasi detailProduct.module.scss](public/docs/langkah-2-g2.png)
 
-**Modifikasi file detailProduct.module.scss pada folder src/views/detailProduct**
+*Modifikasi file detailProduct.module.scss pada folder src/views/detailProduct*
 
 ![Modifikasi views/pages/produk/[product].tsx](public/docs/langkah-2h.png)
 
-**Modifikasi views/pages/produk/[product].tsx**
+*Modifikasi views/pages/produk/[product].tsx*
 
 ![Modifikasi pages/produk/index.tsx](public/docs/langkah-2i.png)
 
-**Modifikasi pages/produk/index.tsx**
+*Modifikasi pages/produk/index.tsx*
 
 ![Hasil Akhir](public/docs/langkah-2j.png)
 
-**Hasil Akhir**
+*Hasil Akhir*
 
 ### 3. Implementasi SSR
 
 ![Modifikasi pada file server.tsx pada folder src/pages/produk/](public/docs/langkah-3a.png)
 
-**Modifikasi pada file server.tsx pada folder src/pages/produk/**
+*Modifikasi pada file server.tsx pada folder src/pages/produk/*
 
 ![Hasil Halaman Produk](public/docs/langkah-3b.png)
 
-**Hasil Halaman Produk**
+*Hasil Halaman Produk*
 
 ![Hasil Halaman Produk detail](public/docs/langkah-3c.png)
 
-**Hasil Halaman Produk detail**
+*Hasil Halaman Produk detail*
 
 ### 4. Implementasi SSG
 
 ![Modifikasi pada file static.tsx pada folder src/pages/produk/](public/docs/langkah-4b.png)
 
-**Modifikasi pada file static.tsx pada folder src/pages/produk/**
+*Modifikasi pada file static.tsx pada folder src/pages/produk/*
 
 ![Modifikasi pada file [produk].tsx pada folder src/pages/produk/](public/docs/langkah-4a.png)
 
-**Modifikasi pada file [produk].tsx pada folder src/pages/produk/**
+*Modifikasi pada file [produk].tsx pada folder src/pages/produk/*
 
 ![Hasil Halaman Produk](public/docs/langkah-4c.png)
 
-**Hasil Halaman Produk**
+*Hasil Halaman Produk*
 
 ![Hasil Halaman Produk detail](public/docs/langkah-4d.png)
 
-**Hasil Halaman Produk detail**
+*Hasil Halaman Produk detail*
+
+## Pengujian
+
+### Uji 1
+
+![Tampilan CSR](public/docs/uji-1a.png)
+
+*Tampilan CSR*
+
+### Uji 2
+
+![Tampilan SSR](public/docs/uji-2a.png)
+
+*Tampilan SSR*
+
+### Uji 3
+
+![Data Awal SSG](public/docs/uji-3a.png)
+
+*Data Awal SSG*
+
+![Menambah Data Baru](public/docs/uji-3b.png)
+
+*Menambah Data Baru*
+
+![Tampilan SSG](public/docs/uji-3c.png)
+
+*Tampilan SSG*
+
