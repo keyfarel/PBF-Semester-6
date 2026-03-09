@@ -67,3 +67,19 @@
 ![Hasil Akhir](public/docs/langkah-2j.png)
 
 **Hasil Akhir**
+
+### 3. Implementasi SSR
+
+![Modifikasi pada file server.tsx pada folder src/pages/produk/](public/docs/langkah-3a.png)
+
+**Modifikasi pada file server.tsx pada folder src/pages/produk/**
+
+![Hasil Halaman Produk](public/docs/langkah-3b.png)
+
+**Hasil Halaman Produk**
+
+![Hasil Halaman Produk detail](public/docs/langkah-3c.png)
+
+**Hasil Halaman Produk detail**
+
+
