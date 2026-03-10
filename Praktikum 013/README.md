@@ -28,3 +28,14 @@
 ![Memodifikasi file middleware.ts](public/docs/langkah-2a.png)
 
 *Memodifikasi file middleware.ts*
+
+### 3. Redirect Sederhana
+
+![Redirect ke dashboard](public/docs/langkah-3a.png)
+
+*Redirect ke dashboard*
+
+![Error to many request](public/docs/langkah-3b.png)
+
+*Error to many request*
+
