@@ -15,7 +15,8 @@ const HalamanProdukStatic = (props: { products: ProductType[] }) => {
     router.replace(router.asPath);
   };
 
-  return (    <ProductView products={props.products} onRefresh={handleRefresh} />
+  return (
+    <ProductView products={props.products} onRefresh={handleRefresh} />
   );
 };
 
@@ -37,5 +38,8 @@ export async function getStaticProps() {
     props: {
       products: mapped,
     },
+    // Menambahkan ISR: Halaman akan di-generate ulang di background 
+    // setiap kali ada request baru, dengan jeda minimal 10 detik.
+    revalidate: 10, 
   };
 }
