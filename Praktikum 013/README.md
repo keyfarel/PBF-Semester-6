@@ -44,3 +44,9 @@
 ![Membatasi produk dan about page](public/docs/langkah-4a.png)
 
 *Membatasi produk dan about page*
+
+### 5. Simulasi Sistem Login
+
+![Menambah kode simulasi login](public/docs/langkah-5a.png)
+
+*Menambah kode simulasi login*
