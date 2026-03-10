@@ -50,3 +50,39 @@
 ![Menambah kode simulasi login](public/docs/langkah-5a.png)
 
 *Menambah kode simulasi login*
+
+## Pengujian
+
+### Uji 1
+
+![Akses Produk](public/docs/uji-1a.png)
+
+*Akses Produk*
+
+![Redirect ke login](public/docs/uji-1b.png)
+
+*Redirect ke login*
+
+### Uji 2
+
+![Modifikasi isLogin menjadi true](public/docs/uji-2a.png)
+
+*Modifikasi isLogin menjadi true*
+
+![Tampilan Halaman Produk](public/docs/uji-2b.png)
+
+*Tampilan Halaman Produk*
+
+### Uji 3
+
+![Modifikasi isLogin false](public/docs/uji-3a.png)
+
+*Modifikasi isLogin false*
+
+![Akses /about](public/docs/uji-3b.png)
+
+*Akses /about*
+
+![Redirect ke login](public/docs/uji-3c.png)
+
+*Redirect ke login*
