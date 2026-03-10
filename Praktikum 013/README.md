@@ -22,3 +22,9 @@
 ![Menambah file src/middleware.ts](public/docs/langkah-1b.png)
 
 *Menambah file src/middleware.ts*
+
+### 2. Struktur Dasar Middleware
+
+![Memodifikasi file middleware.ts](public/docs/langkah-2a.png)
+
+*Memodifikasi file middleware.ts*
