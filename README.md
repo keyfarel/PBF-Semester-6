@@ -16,6 +16,8 @@ Setiap materi atau tugas praktikum disimpan dalam foldernya masing-masing:
 - **Praktikum 009**: Implementasi Server-Side Rendering (SSR) menggunakan `getServerSideProps`, setup data produk, dan perbandingan fungsionalitas antara SSR dan CSR.
 - **Praktikum 010**: Implementasi Static Site Generation (SSG) untuk perenderan halaman static dan setup halaman server.
 - **Praktikum 011**: Implementasi *dynamic routing* untuk SSG, mekanisme eksekusi fungsi *fetch* berbasis CSR dan *loading state* interaktif, serta evaluasi perbandingan metode perenderan (CSR, SSR, dan SSG).
+- **Praktikum 012**: Implementasi fungsionalitas *Incremental Static Regeneration* (ISR) berserta mekanisme pembaruan sinkronisasi berjangka waktu, fitur *on-demand revalidate* via REST API, penambahan kontrol *token security* pada titik api (*endpoint*), dan evaluasi teoretis terhadap metode ISR dan SSG.
+
 ## Laporan Praktikum
 
 Akses laporan praktikum melalui link berikut:
@@ -29,6 +31,8 @@ Akses laporan praktikum melalui link berikut:
 - [Laporan Praktikum 9](Laporan%20Jobsheet/praktikum-009.md)
 - [Laporan Praktikum 10](Laporan%20Jobsheet/praktikum-010.md)
 - [Laporan Praktikum 11](Laporan%20Jobsheet/praktikum-011.md)
+- [Laporan Praktikum 12](Laporan%20Jobsheet/praktikum-012.md)
+
 ## Cara Menjalankan
 
 Setiap folder praktikum memiliki dependensinya sendiri. Untuk menjalankan salah satu proyek (misalnya Praktikum 002):
