@@ -55,3 +55,13 @@
 ![Revalidate Gagal](public/docs/langkah-4c.png)
 
 **Revalidate Gagal**
+
+### 5. Tambahkan Token Security
+
+![Tambah Token Revalidate](public/docs/langkah-5a.png)
+
+**Tambah Token Revalidate**
+
+![Modifikasi API Revalidate](public/docs/langkah-5b.png)
+
+**Modifikasi API Revalidate**
