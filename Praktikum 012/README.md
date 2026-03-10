@@ -65,3 +65,14 @@
 ![Modifikasi API Revalidate](public/docs/langkah-5b.png)
 
 **Modifikasi API Revalidate**
+
+### 6. Uji Coba Token Security
+
+![Uji Coba Token Berhasil](public/docs/langkah-6a.png)
+
+**Uji Coba Token Berhasil**
+
+![Uji Coba Token Gagal](public/docs/langkah-6b.png)
+
+**Uji Coba Token Gagal**
+
