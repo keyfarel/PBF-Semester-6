@@ -41,3 +41,17 @@
 ![Buat API Revalidate](public/docs/langkah-3a.png)
 
 *Buat API Revalidate*
+
+### 4. Tambahkan Parameter Data
+
+![Modifikasi API Revalidate](public/docs/langkah-4a.png)
+
+**Modifikasi API Revalidate**
+
+![Revalidate Berhasil](public/docs/langkah-4b.png)
+
+**Revalidate Berhasil**
+
+![Revalidate Gagal](public/docs/langkah-4c.png)
+
+**Revalidate Gagal**
