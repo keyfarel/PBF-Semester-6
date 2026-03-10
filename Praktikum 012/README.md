@@ -36,4 +36,8 @@
 
 *Setelah 10 detik dan direfresh*
 
+### 3. Buat API Revalidate
 
+![Buat API Revalidate](public/docs/langkah-3a.png)
+
+*Buat API Revalidate*
