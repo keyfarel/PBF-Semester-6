@@ -1,0 +1,117 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: sans-serif; // Atau font andalanmu
+}
+
+// Target utama praktikum: Judul di tengah
+.title {
+  font-size: 1.8rem;       /* Ukuran teks sekitar 48px */
+  font-weight: 600;      /* Biar lebih tebal/bold */
+  letter-spacing: -1px;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+// Wrapper utama untuk konten (Flexbox)
+.wrapper {
+  display: flex;
+  gap: 3rem; // Jarak antara gambar dan deskripsi
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); // Efek bayangan biar estetik
+  align-items: flex-start; // Konten rata atas
+
+  // Responsif: Kalau layar HP, tumpuk ke bawah
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+// Sisi Kiri (Gambar)
+.imageSection {
+  flex: 1; // Ambil 1 bagian ruang (sekitar 50%)
+  width: 100%;
+  
+  .image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+// Sisi Kanan (Deskripsi)
+.infoSection {
+  flex: 1; // Ambil 1 bagian ruang (sekitar 50%)
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .category {
+    text-transform: uppercase;
+    color: #888;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .name {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #222;
+  }
+
+  .price {
+    font-size: 1.8rem;
+    color: #4a90e2; // Warna biru e-commerce
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+
+  .details {
+    margin-top: 1rem;
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+    
+    p {
+      margin: 0.5rem 0;
+      color: #555;
+      
+      strong {
+        color: #333;
+      }
+    }
+  }
+  
+  // Tombol aksi pelengkap (opsional, biar keren aja)
+  .actionButtons {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    
+    .buyBtn {
+      background-color: #4a90e2;
+      color: white;
+      &:hover { background-color: #357abd; }
+    }
+    
+    .cartBtn {
+      background-color: #eee;
+      color: #333;
+      &:hover { background-color: #ddd; }
+    }
+  }
+}
