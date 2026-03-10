@@ -39,3 +39,8 @@
 
 *Error to many request*
 
+### 4. Batasi Route Tertentu
+
+![Membatasi produk dan about page](public/docs/langkah-4a.png)
+
+*Membatasi produk dan about page*
