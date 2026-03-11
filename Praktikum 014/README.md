@@ -48,3 +48,49 @@
 ![Menambahkan session provider di _app.tsx](public/docs/langkah-4a.png)
 
 *Menambahkan session provider di _app.tsx*
+
+### 5. Tambahkan Tombol Login & Logout
+
+![Buka file /components/layouts/navbar/index.tsx](public/docs/langkah-5a.png)
+
+*Buka file /components/layouts/navbar/index.tsx*
+
+
+![Modifikasi file /components/layouts/navbar/index.tsx](public/docs/langkah-5b.png)
+
+*Modifikasi file /components/layouts/navbar/index.tsx*
+
+
+![Modifikasi file styles/navbar.module.css](public/docs/langkah-5c.png)
+
+*Modifikasi file styles/navbar.module.css*
+
+
+![Buka halaman /](public/docs/langkah-5d.png)
+
+*Buka halaman /**
+
+![Tampilan Halaman Login](public/docs/langkah-5e.png)
+
+*Tampilan Halaman Login*
+
+
+![Menambahkan session di file /components/layouts/navbar/index.tsx](public/docs/langkah-5f.png)
+
+*Menambahkan session di file /components/layouts/navbar/index.tsx*
+
+
+![Coba login](public/docs/langkah-5g.png)
+
+*Coba login*
+
+
+![Tampilan home page](public/docs/langkah-5h.png)
+
+*Tampilan home page*
+
+![Logout](public/docs/langkah-5i.png)
+
+*Logout*
+
+
