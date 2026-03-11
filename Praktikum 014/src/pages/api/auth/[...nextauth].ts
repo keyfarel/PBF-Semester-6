@@ -15,7 +15,6 @@ export const authOptions: NextAuthOptions = {
         password: { label: "Password", type: "password" },
       },
       async authorize(credentials) {
-        // Simulasi data user sementara
         const user: any = {
           email: credentials?.email,
           fullname: credentials?.fullname,
@@ -31,7 +30,6 @@ export const authOptions: NextAuthOptions = {
   ],
   callbacks: {
     async jwt({ token, account, user }: any) {
-      // Jika login menggunakan credentials, masukkan data user ke dalam token
       if (account?.provider === "credentials" && user) {
         token.email = user.email;
         token.fullname = user.fullname;
@@ -39,7 +37,6 @@ export const authOptions: NextAuthOptions = {
       return token;
     },
     async session({ session, token }: any) {
-      // Masukkan data dari token ke dalam session agar bisa diakses di frontend
       if (token.email) {
         session.user.email = token.email;
         session.user.fullname = token.fullname;

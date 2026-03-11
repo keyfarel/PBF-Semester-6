@@ -93,4 +93,34 @@
 
 *Logout*
 
+### 6. Menambahkan Data Tambahan (Full Name)
+
+![Modifikasi file /pages/api/auth/[...nextauth].ts](public/docs/langkah-6a.png)
+
+*Modifikasi file /pages/api/auth/[...nextauth].ts*
+
+
+![Modifikasi file styles/navbar.module.css](public/docs/langkah-6b.png)
+
+*Modifikasi file styles/navbar.module.css*
+
+
+![Modifikasi file /components/layouts/navbar/index.tsx](public/docs/langkah-6c.png)
+
+*Modifikasi file /components/layouts/navbar/index.tsx*
+
+
+![Buka halaman /](public/docs/langkah-6d.png)
+
+*Buka halaman /**
+
+![Login](public/docs/langkah-6e.png)
+
+*Login*
+
+
+![Home Page](public/docs/langkah-6f.png)
+
+*Home Page*
+
 
