@@ -123,4 +123,26 @@
 
 *Home Page*
 
+### 7. Proteksi Halaman Profile
+
+![Buat file middleware/withAuth.ts](public/docs/langkah-7a.png)
+
+*Buat file middleware/withAuth.ts*
+
+![Modifikasi file middleware/withAuth.ts](public/docs/langkah-7c.png)
+
+*Modifikasi file middleware/withAuth.ts*
+
+![Modifikasi file middleware.ts](public/docs/langkah-7d.png)
+
+*Modifikasi file middleware.ts*
+
+![Modifikasi file pages/profile/index.tsx](public/docs/langkah-7b.png)
+
+*Modifikasi file pages/profile/index.tsx*
+
+![Login dan akses /profile page](public/docs/langkah-7e.png)
+
+*Login dan akses /profile page*
+
 
