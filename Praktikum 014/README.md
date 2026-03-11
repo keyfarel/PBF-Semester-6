@@ -32,3 +32,13 @@
 
 *Modifikasi kode /api/auth/[...nextauth].ts*
 
+### 3. Tambahkan Secret
+
+![Generate secret base64](public/docs/langkah-3a.png)
+
+*Generate secret base64*
+
+
+![Menambahkan secret di .env.local](public/docs/langkah-3b.png)
+
+*Menambahkan secret di .env.local*
