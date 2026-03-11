@@ -42,3 +42,9 @@
 ![Menambahkan secret di .env.local](public/docs/langkah-3b.png)
 
 *Menambahkan secret di .env.local*
+
+### 4. Tambahkan SessionProvider
+
+![Menambahkan session provider di _app.tsx](public/docs/langkah-4a.png)
+
+*Menambahkan session provider di _app.tsx*
