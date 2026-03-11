@@ -146,3 +146,23 @@
 *Login dan akses /profile page*
 
 
+## Pengujian
+
+### Uji 1
+
+![Sebelum Login](public/docs/uji-1.png)
+
+*Sebelum Login*
+
+### Uji 2
+
+![Setelah Login](public/docs/uji-2.png)
+
+*Setelah Login*
+
+### Uji 3
+
+![Setelah Logout](public/docs/uji-3.png)
+
+*Setelah Logout*
+
