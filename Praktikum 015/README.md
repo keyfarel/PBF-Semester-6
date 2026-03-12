@@ -89,3 +89,35 @@
 ![Data yang tersimpan di firestore](public/docs/langkah-3h.png)
 
 *Data yang tersimpan di firestore*
+
+## Pengujian
+
+### Uji 1 - Register Baru
+
+![Test register dengan akun belum terdaftar](public/docs/langkah-3d.png)
+
+*Test register dengan akun belum terdaftar*
+
+![Proses registrasi ditandai dengan loading](public/docs/langkah-3e.png)
+
+*Proses registrasi ditandai dengan loading*
+
+![Register berhasil dan mengarah ke login page](public/docs/langkah-3f.png)
+
+*Register berhasil dan mengarah ke login page*
+
+![Data yang tersimpan di firestore](public/docs/langkah-3h.png)
+
+*Data yang tersimpan di firestore*
+
+### Uji 2 - Email Sudah Ada
+
+![Register gagal karena akun sudah terdaftar](public/docs/langkah-3g.png)
+
+*Register gagal karena akun sudah terdaftar*
+
+### Uji 3 - Method GET
+
+![Method GET not allowed](public/docs/uji-3.png)
+
+*Method GET not allowed*
