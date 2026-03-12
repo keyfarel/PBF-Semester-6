@@ -32,3 +32,25 @@
 ![Tampilan Halaman Register](public/docs/langkah-1d.png)
 
 *Tampilan Halaman Register*
+
+### 2. Membuat API Register
+
+![menambah dan memodifikasi pages/api/register.ts](public/docs/langkah-2a.png)
+
+*menambah dan memodifikasi pages/api/register.ts*
+
+![Modifikasi utils/db/servicefirebase.ts](public/docs/langkah-2b.png)
+
+*Modifikasi utils/db/servicefirebase.ts*
+
+![Modifikasi views/auth/register/index.tsx](public/docs/langkah-2c.png)
+
+*Modifikasi views/auth/register/index.tsx*
+
+![Mengisi form register](public/docs/langkah-2d.png)
+
+*Mengisi form register*
+
+![Register berhasil dan mengarah ke halaman login](public/docs/langkah-2e.png)
+
+*Register berhasil dan mengarah ke halaman login*

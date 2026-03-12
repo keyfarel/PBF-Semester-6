@@ -2,16 +2,48 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "./register.module.scss";
 import { FaUser, FaEnvelope, FaLock, FaUserPlus } from "react-icons/fa";
+import { useState } from "react";
 
 const TampilanRegister = () => {
     const { push } = useRouter();
+    const [isLoading, setIsLoading] = useState(false);
+    const [error, setError] = useState("");
 
-    const handleRegister = (e: React.FormEvent<HTMLFormElement>) => {
+    const handleRegister = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        
-        console.log("Form register disubmit ✔");
-        console.log("Mengalihkan ke halaman /auth/login ...");
-        push("/auth/login");
+        setIsLoading(true);
+        setError("");
+
+        const form = e.target as HTMLFormElement;
+        const data = {
+            fullname: form.fullname.value,
+            email: form.email.value,
+            password: form.password.value,
+        };
+
+        try {
+            const response = await fetch("/api/register", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(data),
+            });
+
+            const result = await response.json();
+
+            if (result.status) {
+                console.log("Registrasi Berhasil ✔");
+                form.reset();
+                push("/auth/login");
+            } else {
+                setError(result.message);
+            }
+        } catch (err) {
+            setError("Terjadi kesalahan pada server");
+        } finally {
+            setIsLoading(false);
+        }
     };
 
     return (
@@ -20,6 +52,8 @@ const TampilanRegister = () => {
                 <div className={styles.register__header}>
                     <h1 className={styles.register__title}>Buat Akun</h1>
                 </div>
+
+                {error && <p style={{ color: "#fca5a5", marginBottom: "1rem", textAlign: "center" }}>{error}</p>}
 
                 <form className={styles.register__form} onSubmit={handleRegister}>
                     <div className={styles.register__form__group}>
@@ -65,8 +99,12 @@ const TampilanRegister = () => {
                         </div>
                     </div>
 
-                    <button type="submit" className={styles.register__form__button}>
-                        Daftar Sekarang
+                    <button 
+                        type="submit" 
+                        className={styles.register__form__button} 
+                        disabled={isLoading} // Disable tombol saat proses register
+                    >
+                        {isLoading ? "Memproses..." : "Daftar Sekarang"}
                     </button>
                 </form>
 
