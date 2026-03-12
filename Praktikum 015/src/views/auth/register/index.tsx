@@ -12,7 +12,7 @@ const TampilanRegister = () => {
     const handleRegister = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         setIsLoading(true);
-        setError("");
+        setError(""); // Reset error setiap kali submit baru
 
         const form = e.target as HTMLFormElement;
         const data = {
@@ -37,12 +37,13 @@ const TampilanRegister = () => {
                 form.reset();
                 push("/auth/login");
             } else {
-                setError(result.message);
+                // Tampilkan pesan error jika status false (misal: Email sudah terdaftar)
+                setIsLoading(false);
+                setError(result.message); 
             }
         } catch (err) {
-            setError("Terjadi kesalahan pada server");
-        } finally {
             setIsLoading(false);
+            setError("Terjadi kesalahan pada server");
         }
     };
 
@@ -53,7 +54,8 @@ const TampilanRegister = () => {
                     <h1 className={styles.register__title}>Buat Akun</h1>
                 </div>
 
-                {error && <p style={{ color: "#fca5a5", marginBottom: "1rem", textAlign: "center" }}>{error}</p>}
+                {/* Bagian ini memunculkan notifikasi error jika state error terisi */}
+                {error && <div className={styles.register__error}>{error}</div>}
 
                 <form className={styles.register__form} onSubmit={handleRegister}>
                     <div className={styles.register__form__group}>
@@ -101,10 +103,11 @@ const TampilanRegister = () => {
 
                     <button 
                         type="submit" 
-                        className={styles.register__form__button} 
-                        disabled={isLoading} // Disable tombol saat proses register
+                        className={styles.register__form__button}
+                        disabled={isLoading} // Tombol mati saat loading
                     >
-                        {isLoading ? "Memproses..." : "Daftar Sekarang"}
+                        {/* Teks tombol berubah sesuai state */}
+                        {isLoading ? "Loading..." : "Daftar Sekarang"}
                     </button>
                 </form>
 

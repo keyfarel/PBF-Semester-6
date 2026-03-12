@@ -54,3 +54,38 @@
 ![Register berhasil dan mengarah ke halaman login](public/docs/langkah-2e.png)
 
 *Register berhasil dan mengarah ke halaman login*
+
+### 3. Install bcrypt
+
+![install bcrypt](public/docs/langkah-3a.png)
+
+*install bcrypt*
+
+![Modifikasi utils/db/servicefirebase.ts](public/docs/langkah-3b.png)
+
+*Modifikasi utils/db/servicefirebase.ts*
+
+![Modifikasi views/auth/register/register.module.scss](public/docs/langkah-3c1.png)
+![Modifikasi views/auth/register/register.module.scss](public/docs/langkah-3c2.png)
+
+*Modifikasi views/auth/register/register.module.scss*
+
+![Test register dengan akun belum terdaftar](public/docs/langkah-3d.png)
+
+*Test register dengan akun belum terdaftar*
+
+![Proses registrasi ditandai dengan loading](public/docs/langkah-3e.png)
+
+*Proses registrasi ditandai dengan loading*
+
+![Register berhasil dan mengarah ke login page](public/docs/langkah-3f.png)
+
+*Register berhasil dan mengarah ke login page*
+
+![Register gagal karena akun sudah terdaftar](public/docs/langkah-3g.png)
+
+*Register gagal karena akun sudah terdaftar*
+
+![Data yang tersimpan di firestore](public/docs/langkah-3h.png)
+
+*Data yang tersimpan di firestore*

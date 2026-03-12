@@ -33,6 +33,20 @@ $input-bg: #ffffff;
         animation: fadeIn 0.5s ease-out;
     }
 
+    
+    &__error {
+        width: 100%;
+        background-color: rgba(239, 68, 68, 0.2); // Merah transparan
+        border: 1px solid #ef4444; // Border merah
+        color: #fca5a5; // Teks merah muda
+        padding: 0.75rem;
+        border-radius: 8px;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+
     &__header {
         text-align: center;
         margin-bottom: 2.5rem;
@@ -92,6 +106,14 @@ $input-bg: #ffffff;
                 background-color: $primary-hover;
                 transform: translateY(-1px);
                 box-shadow: 0 4px 12px rgba(42, 82, 152, 0.2);
+            }
+
+            &:disabled {
+                background-color: #d1d5db; // Warna abu-abu
+                color: #6b7280;
+                cursor: not-allowed;
+                transform: none; // Matikan efek naik saat dihover
+                box-shadow: none;
             }
 
             &:active {

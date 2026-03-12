@@ -1,5 +1,6 @@
 import { getFirestore, collection, getDocs, addDoc, doc, getDoc, query, where } from "firebase/firestore";
 import app from "./firebase";
+import bcrypt from "bcrypt";
 
 const db = getFirestore(app);
 
@@ -37,9 +38,21 @@ export async function signUp(userData: any) {
   }
 
   try {
-    const docRef = await addDoc(collection(db, "users"), userData);
+    const saltRounds = 10;
+    const hashedPassword = await bcrypt.hash(userData.password, saltRounds);
+
+    const dataToSave = {
+      fullname: userData.fullname,
+      email: userData.email,
+      password: hashedPassword,
+      role: "user",
+      created_at: new Date().toISOString()
+    };
+
+    const docRef = await addDoc(collection(db, "users"), dataToSave);
     return { status: true, message: "Registrasi Berhasil" };
   } catch (error) {
+    console.error("Error saat signUp:", error);
     return { status: false, message: "Gagal menyimpan data", error };
   }
 }
