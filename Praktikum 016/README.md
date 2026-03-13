@@ -24,3 +24,24 @@
 ![Modifikasi pages/api/auth/[..nextauth].ts](public/docs/langkah-1b.png)
 
 *Modifikasi pages/api/auth/[..nextauth].ts*
+
+### 2. Handle Login di Frontend
+
+![Modifikasi view/auth/login/login.tsx](public/docs/langkah-2a1.png)
+![Modifikasi view/auth/login/login.tsx](public/docs/langkah-2a2.png)
+
+*Modifikasi view/auth/login/login.tsx*
+
+![Modifikasi view/auth/login/login.module.scss](public/docs/langkah-2b1.png)
+![Modifikasi view/auth/login/login.module.scss](public/docs/langkah-2b2.png)
+![Modifikasi view/auth/login/login.module.scss](public/docs/langkah-2b3.png)
+
+*Modifikasi view/auth/login/login.module.scss*
+
+![Tampilan halaman login](public/docs/langkah-2c.png)
+
+*Tampilan halaman login*
+
+![Modifikasi file utils/db/servicefirebase.ts](public/docs/langkah-2d.png)
+
+*Modifikasi file utils/db/servicefirebase.ts*

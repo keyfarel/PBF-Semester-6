@@ -56,3 +56,35 @@ export async function signUp(userData: any) {
     return { status: false, message: "Gagal menyimpan data", error };
   }
 }
+
+export async function signIn(userData: any) {
+  try {
+    const q = query(collection(db, "users"), where("email", "==", userData.email));
+    const snapshot = await getDocs(q);
+
+    if (snapshot.empty) {
+      return { status: false, message: "Email tidak ditemukan!" };
+    }
+
+    const userDoc = snapshot.docs[0];
+    const user = userDoc.data();
+
+    const isPasswordValid = await bcrypt.compare(userData.password, user.password);
+
+    if (!isPasswordValid) {
+      return { status: false, message: "Password salah!" };
+    }
+
+    const { password, ...userWithoutPassword } = user;
+    
+    return { 
+      status: true, 
+      message: "Login Berhasil",
+      data: { id: userDoc.id, ...userWithoutPassword } 
+    };
+
+  } catch (error) {
+    console.error("Error saat signIn:", error);
+    return { status: false, message: "Terjadi kesalahan pada server", error };
+  }
+}

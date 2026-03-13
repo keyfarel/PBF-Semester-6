@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "./register.module.scss";
-import { FaUser, FaEnvelope, FaLock, FaUserPlus } from "react-icons/fa";
+import { FaUser, FaEnvelope, FaLock } from "react-icons/fa"; // FaUserPlus dihapus
 import { useState } from "react";
 
 const TampilanRegister = () => {
@@ -37,7 +37,6 @@ const TampilanRegister = () => {
                 form.reset();
                 push("/auth/login");
             } else {
-                // Tampilkan pesan error jika status false (misal: Email sudah terdaftar)
                 setIsLoading(false);
                 setError(result.message); 
             }
@@ -51,10 +50,11 @@ const TampilanRegister = () => {
         <div className={styles.register}>
             <div className={styles.register__container}>
                 <div className={styles.register__header}>
-                    <h1 className={styles.register__title}>Buat Akun</h1>
+                    {/* Ikon besar dihapus */}
+                    <h1 className={styles.register__title}>Buat Akun Baru</h1>
+                    <p className={styles.register__subtitle}>Silakan lengkapi data Anda di bawah ini</p>
                 </div>
 
-                {/* Bagian ini memunculkan notifikasi error jika state error terisi */}
                 {error && <div className={styles.register__error}>{error}</div>}
 
                 <form className={styles.register__form} onSubmit={handleRegister}>
@@ -104,9 +104,8 @@ const TampilanRegister = () => {
                     <button 
                         type="submit" 
                         className={styles.register__form__button}
-                        disabled={isLoading} // Tombol mati saat loading
+                        disabled={isLoading}
                     >
-                        {/* Teks tombol berubah sesuai state */}
                         {isLoading ? "Loading..." : "Daftar Sekarang"}
                     </button>
                 </form>
