@@ -106,3 +106,53 @@
 ![Berhasil masuk ke dashboard admin](public/docs/langkah-6f.png)
 
 *Berhasil masuk ke dashboard admin*
+
+## Pengujian
+
+### Uji 1 – Login Valid
+
+![Login dengan kredensial user](public/docs/uji-1a.png)
+
+*Login dengan kredensial user*
+
+![Login berhasil sebagai user](public/docs/uji-1b.png)
+
+*Login berhasil sebagai user*
+
+### Uji 2 – Password Salah
+
+![Password salah](public/docs/uji-2a.png)
+
+*Password salah*
+
+### Uji 3 – Akses Admin sebagai User
+
+![Login dengan kredensial user](public/docs/uji-3a.png)
+
+*Login dengan kredensial user*
+
+![Login berhasil sebagai user](public/docs/uji-3b.png)
+
+*Login berhasil sebagai user*
+
+![Akses halaman /admin](public/docs/uji-3c.png)
+
+*Akses halaman /admin*
+
+![Diredirect ke halaman home](public/docs/uji-3d.png)
+
+*Diredirect ke halaman home*
+
+### Uji 4 – Akses Admin sebagai Admin
+
+![Data admin di firestore](public/docs/langkah-6d.png)
+
+*Data admin di firestore*
+
+![Login dengan kredensial admin](public/docs/langkah-6e.png)
+
+*Login dengan kredensial admin*
+
+![Berhasil masuk ke dashboard admin](public/docs/langkah-6f.png)
+
+*Berhasil masuk ke dashboard admin*
