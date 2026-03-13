@@ -74,3 +74,9 @@
 ![Login berhasil dan masuk ke halaman utama](public/docs/langkah-4e.png)
 
 *Login berhasil dan masuk ke halaman utama*
+
+### 5. Callback URL Logic
+
+![Modifikasi middleware/withAuth.ts](public/docs/langkah-5a.png)
+
+*Modifikasi middleware/withAuth.ts*

@@ -1,4 +1,3 @@
-// src/middlewares/withAuth.ts
 import { getToken } from "next-auth/jwt";
 import {
   NextFetchEvent,
@@ -21,7 +20,9 @@ export default function withAuth(
       });
 
       if (!token) {
-        return NextResponse.redirect(new URL("/", req.url));
+        const loginUrl = new URL("/auth/login", req.url);
+        loginUrl.searchParams.set("callbackUrl", encodeURI(req.url));
+        return NextResponse.redirect(loginUrl);
       }
     }
 
