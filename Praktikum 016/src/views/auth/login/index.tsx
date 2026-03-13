@@ -6,9 +6,11 @@ import { useState } from "react";
 import { signIn } from "next-auth/react"; 
 
 const TampilanLogin = () => {
-    const { push } = useRouter();
+    const { push, query } = useRouter(); 
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState("");
+
+    const callbackUrl: any = query.callbackUrl || "/";
 
     const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -32,7 +34,8 @@ const TampilanLogin = () => {
             } else {
                 console.log("Login Berhasil ✔");
                 form.reset();
-                push("/");
+                
+                push(callbackUrl); 
             }
         } catch (err) {
             setIsLoading(false);

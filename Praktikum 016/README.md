@@ -80,3 +80,29 @@
 ![Modifikasi middleware/withAuth.ts](public/docs/langkah-5a.png)
 
 *Modifikasi middleware/withAuth.ts*
+
+### 6. Callback URL Logic
+
+![Buat file pages/admin/index.tsx](public/docs/langkah-6a.png)
+
+*Buat file pages/admin/index.tsx*
+
+![Modifikasi pages/admin/index.tsx](public/docs/langkah-6b.png)
+
+*Modifikasi pages/admin/index.tsx*
+
+![Modifikasi middleware/withAuth.ts](public/docs/langkah-6c.png)
+
+*Modifikasi middleware/withAuth.ts*
+
+![Tambah admin di firestore users](public/docs/langkah-6d.png)
+
+*Tambah admin di firestore users*
+
+![Login dengan kredensial admin](public/docs/langkah-6e.png)
+
+*Login dengan kredensial admin*
+
+![Berhasil masuk ke dashboard admin](public/docs/langkah-6f.png)
+
+*Berhasil masuk ke dashboard admin*

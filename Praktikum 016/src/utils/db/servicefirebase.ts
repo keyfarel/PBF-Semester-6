@@ -41,11 +41,13 @@ export async function signUp(userData: any) {
     const saltRounds = 10;
     const hashedPassword = await bcrypt.hash(userData.password, saltRounds);
 
+    const isAdmin = userData.email === "admin@gmail.com"; 
+
     const dataToSave = {
       fullname: userData.fullname,
       email: userData.email,
       password: hashedPassword,
-      role: "user",
+      role: isAdmin ? "admin" : "user", 
       created_at: new Date().toISOString()
     };
 

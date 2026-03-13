@@ -13,7 +13,7 @@ export default function withAuth(
   return async (req: NextRequest, next: NextFetchEvent) => {
     const pathname = req.nextUrl.pathname;
 
-    if (requireAuth.includes(pathname)) {
+    if (requireAuth.includes(pathname) || pathname.startsWith("/admin")) {
       const token = await getToken({
         req,
         secret: process.env.NEXTAUTH_SECRET,
@@ -23,6 +23,9 @@ export default function withAuth(
         const loginUrl = new URL("/auth/login", req.url);
         loginUrl.searchParams.set("callbackUrl", encodeURI(req.url));
         return NextResponse.redirect(loginUrl);
+      }
+      if (token && pathname.startsWith("/admin") && token.role !== "admin") {
+        return NextResponse.redirect(new URL("/", req.url));
       }
     }
 
