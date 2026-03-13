@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "./login.module.scss";
-import { FaEnvelope, FaLock } from "react-icons/fa"; // FaSignInAlt dihapus
+import { FaEnvelope, FaLock } from "react-icons/fa";
 import { useState } from "react";
+import { signIn } from "next-auth/react"; 
 
 const TampilanLogin = () => {
     const { push } = useRouter();
@@ -15,33 +16,27 @@ const TampilanLogin = () => {
         setError("");
 
         const form = e.target as HTMLFormElement;
-        const data = {
-            email: form.email.value,
-            password: form.password.value, 
-        };
+        const email = form.email.value;
+        const password = form.password.value;
 
         try {
-            const response = await fetch("/api/login", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify(data),
+            const res = await signIn("credentials", {
+                redirect: false,
+                email: email,
+                password: password,
             });
 
-            const result = await response.json();
-
-            if (result.status) {
+            if (res?.error) {
+                setIsLoading(false);
+                setError(res.error);
+            } else {
                 console.log("Login Berhasil ✔");
                 form.reset();
-                push("/"); 
-            } else {
-                setIsLoading(false);
-                setError(result.message); 
+                push("/");
             }
         } catch (err) {
             setIsLoading(false);
-            setError("Terjadi kesalahan pada server");
+            setError("Terjadi kesalahan pada sistem login");
         }
     };
 
@@ -49,7 +44,6 @@ const TampilanLogin = () => {
         <div className={styles.login}>
             <div className={styles.login__container}>
                 <div className={styles.login__header}>
-                    {/* Ikon besar di atas dihapus */}
                     <h1 className={styles.login__title}>Welcome Back</h1>
                     <p className={styles.login__subtitle}>Silakan masuk ke akun Anda</p>
                 </div>

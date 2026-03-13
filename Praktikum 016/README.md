@@ -48,6 +48,29 @@
 
 ### 3. Authorize di NextAuth (Database Login)
 
-![Modifikasi pages/api/auth/[..nextauth].ts](public/docs/langkah-3a.png)
+![Modifikasi file utils/db/servicefirebase.ts](public/docs/langkah-3a.png)
+
+*Modifikasi file utils/db/servicefirebase.ts*
+
+### 4. Tambahkan Role ke Token
+
+![Modifikasi pages/api/auth/[..nextauth].ts](public/docs/langkah-4a.png)
 
 *Modifikasi pages/api/auth/[..nextauth].ts*
+
+![Modifikasi view/auth/login/login.tsx](public/docs/langkah-4b1.png)
+![Modifikasi view/auth/login/login.tsx](public/docs/langkah-4b2.png)
+
+*Modifikasi view/auth/login/login.tsx*
+
+![Isi form login](public/docs/langkah-4c.png)
+
+*Isi form login*
+
+![Loading login](public/docs/langkah-4d.png)
+
+*Loading login*
+
+![Login berhasil dan masuk ke halaman utama](public/docs/langkah-4e.png)
+
+*Login berhasil dan masuk ke halaman utama*
