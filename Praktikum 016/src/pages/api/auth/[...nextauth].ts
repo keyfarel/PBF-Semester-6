@@ -1,5 +1,6 @@
 import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
+import { signIn } from "@/utils/db/servicefirebase";
 
 export const authOptions: NextAuthOptions = {
   session: {
@@ -10,20 +11,23 @@ export const authOptions: NextAuthOptions = {
     CredentialsProvider({
       name: "Credentials",
       credentials: {
-        fullname: { label: "Full Name", type: "text" },
         email: { label: "Email", type: "email" },
         password: { label: "Password", type: "password" },
       },
       async authorize(credentials) {
-        const user: any = {
-          email: credentials?.email,
-          fullname: credentials?.fullname,
-        };
-
-        if (user) {
-          return user;
-        } else {
+        if (!credentials?.email || !credentials?.password) {
           return null;
+        }
+
+        const res = await signIn({
+          email: credentials.email,
+          password: credentials.password,
+        });
+
+        if (res.status && res.data) {
+          return res.data as any; 
+        } else {
+          throw new Error(res.message);
         }
       },
     }),
@@ -33,13 +37,17 @@ export const authOptions: NextAuthOptions = {
       if (account?.provider === "credentials" && user) {
         token.email = user.email;
         token.fullname = user.fullname;
+        token.role = user.role;
+        token.id = user.id;
       }
       return token;
     },
     async session({ session, token }: any) {
-      if (token.email) {
+      if (token && session.user) {
         session.user.email = token.email;
-        session.user.fullname = token.fullname;
+        (session.user as any).fullname = token.fullname;
+        (session.user as any).role = token.role;
+        (session.user as any).id = token.id;
       }
       return session;
     },

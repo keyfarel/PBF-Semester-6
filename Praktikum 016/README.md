@@ -45,3 +45,9 @@
 ![Modifikasi file utils/db/servicefirebase.ts](public/docs/langkah-2d.png)
 
 *Modifikasi file utils/db/servicefirebase.ts*
+
+### 3. Authorize di NextAuth (Database Login)
+
+![Modifikasi pages/api/auth/[..nextauth].ts](public/docs/langkah-3a.png)
+
+*Modifikasi pages/api/auth/[..nextauth].ts*
