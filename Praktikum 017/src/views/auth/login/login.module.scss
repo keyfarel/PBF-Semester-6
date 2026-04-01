@@ -1,0 +1,174 @@
+@use "@/styles/colors.scss" as *;
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8fafc; // Latar belakang clean (abu-abu sangat terang)
+    font-family: 'Inter', sans-serif;
+    padding: 2rem;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #ffffff; // Kartu form putih bersih
+        padding: 3rem 2.5rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); // Shadow halus
+        border: 1px solid #e2e8f0;
+        width: 100%;
+        max-width: 420px;
+        color: #1f2937; // Teks gelap
+        animation: fadeIn 0.4s ease-out;
+    }
+
+    &__error {
+        width: 100%;
+        background-color: #fee2e2;
+        border: 1px solid #f87171;
+        color: #b91c1c;
+        padding: 0.75rem;
+        border-radius: 8px;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+
+    &__header {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    &__title {
+        font-size: 2rem;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+        color: #2a5298; // Warna utama biru yang diminta
+        margin-bottom: 0.5rem;
+    }
+
+    &__subtitle {
+        font-size: 0.9rem;
+        color: #6b7280;
+    }
+
+    &__form {
+        width: 100%;
+
+        &__group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1.5rem;
+
+            label {
+                font-size: 0.875rem;
+                font-weight: 600;
+                color: #374151;
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        &__button {
+            margin-top: 1rem;
+            width: 100%;
+            padding: 0.875rem;
+            background-color: #2a5298; // Warna utama biru
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.1s;
+
+            &:hover {
+                background-color: #1e3a6d; // Warna biru lebih gelap saat hover
+            }
+
+            &:active {
+                transform: scale(0.98); // Efek klik
+            }
+
+            &:disabled {
+                background-color: #9ca3af;
+                cursor: not-allowed;
+                transform: none;
+            }
+        }
+    }
+
+    &__input_wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        input {
+            width: 100%;
+            padding: 0.875rem 1rem 0.875rem 3rem;
+            border: 1px solid #d1d5db; // Border abu-abu standar
+            border-radius: 8px;
+            font-size: 0.95rem;
+            outline: none;
+            transition: all 0.2s ease;
+            background-color: #f9fafb;
+            color: #1f2937;
+
+            &::placeholder {
+                color: #9ca3af;
+            }
+
+            &:focus {
+                border-color: #2a5298; // Border berubah biru saat diketik
+                background-color: #ffffff;
+                box-shadow: 0 0 0 3px rgba(42, 82, 152, 0.15); // Ring shadow biru
+            }
+        }
+
+        svg {
+            position: absolute;
+            left: 1rem;
+            font-size: 1.1rem;
+            color: #9ca3af; // Ikon warna abu-abu
+            transition: color 0.2s ease;
+        }
+
+        &:focus-within {
+            svg {
+                color: #2a5298; // Ikon ikut berubah biru saat input aktif
+            }
+        }
+    }
+
+    &__link {
+        margin-top: 2rem;
+        text-align: center;
+        color: #6b7280;
+        font-size: 0.9rem;
+
+        a {
+            color: #2a5298; // Link warna biru
+            font-weight: 600;
+            text-decoration: none;
+            transition: color 0.2s;
+
+            &:hover {
+                color: #1e3a6d;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
