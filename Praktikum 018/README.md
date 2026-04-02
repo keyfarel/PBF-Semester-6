@@ -42,3 +42,9 @@
 ![Hasil inspect font](public/docs/langkah-3b.png)
 
 *Hasil inspect font*
+
+### 4. Menggunakan next/script
+
+![Modifikasi file src/components/layouts/navbar/index.tsx](public/docs/langkah-4a.png)
+
+*Modifikasi file src/components/layouts/navbar/index.tsx*

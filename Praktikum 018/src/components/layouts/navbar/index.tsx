@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Script from "next/script"; // 1. Tambahkan import Script
 import styles from "../../../styles/navbar.module.css";
 import { signIn, signOut, useSession } from "next-auth/react";
 import Image from "next/image"; 
@@ -13,9 +14,12 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.navLeft}>
-        <Link href="/" className={styles.logo}>
-          MyApp
+        <Link href="/" className={styles.logo} id="title">
         </Link>
+        <Script id="script-title" strategy="lazyOnload">
+          {`document.getElementById('title').innerHTML = 'MyApp';`}
+        </Script>
+
         <div className={styles.navLinks}>
           <Link href="/" className={styles.link}>Home</Link>
           <Link href="/produk" className={styles.link}>Produk</Link>
