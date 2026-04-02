@@ -58,3 +58,35 @@
 ![Modifikasi file next.config.js](public/docs/langkah-5b.png)
 
 *Modifikasi file next.config.js*
+
+## Tugas Praktikum
+
+### 1. Optimasi semua image di project menggunakan next/image
+
+![Optimasi semua image di project](public/docs/tugas-2a.png)
+
+*Optimasi semua image di project*
+
+### 2. Gunakan minimal 1 font dari next/font
+
+![Menggunakan font roboto di app shell](public/docs/tugas-1a.png)
+
+*Menggunakan font roboto di app shell*
+
+### 3. Tambahkan script Google Analytics menggunakan next/script
+
+![Menambahkan script google analytics](public/docs/tugas-4a.png)
+
+*Menambahkan script google analytics*
+
+### 4. Terapkan dynamic import pada minimal 1 komponen
+
+![Terapkan dynamic import pada navbar](public/docs/tugas-3a.png)
+
+*Terapkan dynamic import pada navbar*
+
+### 5. Dokumentasikan perubahan performa (screenshot Lighthouse)
+
+![Dokumentasi lighthouse http://localhost:3000/produk](public/docs/tugas-5a.png)
+
+*Dokumentasi lighthouse http://localhost:3000/produk*
