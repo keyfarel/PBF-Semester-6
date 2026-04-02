@@ -34,3 +34,29 @@
 ![Buka project MyAppNext](public/docs/langkah-2c.png)
 
 *Buka project MyAppNext*
+
+### 3. Konfigurasi OAuth Consent Screen
+
+![Buka OAuth consent screen](public/docs/langkah-3a.png)
+
+*Buka OAuth consent screen*
+
+![Isi App Information](public/docs/langkah-3b.png)
+
+*Isi App Information*
+
+![Isi Audience](public/docs/langkah-3c.png)
+
+*Isi Audience*
+
+![Isi Contact Information](public/docs/langkah-3d.png)
+
+*Isi Contact Information*
+
+![Finish](public/docs/langkah-3e.png)
+
+*Finish*
+
+![Tampilan OAuth Consent Screen](public/docs/langkah-3f.png)
+
+*Tampilan OAuth Consent Screen*
