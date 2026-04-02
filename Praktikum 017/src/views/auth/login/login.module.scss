@@ -160,6 +160,59 @@
             }
         }
     }
+
+    &__divider {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 1.5rem 0 1rem 0;
+        
+        &::before, &::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        span {
+            padding: 0 10px;
+            color: #9ca3af;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+    }
+
+    &__google_button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0.875rem;
+        background-color: #ffffff;
+        color: #374151;
+        border: 1px solid #d1d5db;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        gap: 10px;
+        margin-bottom: 1rem;
+
+        &:hover {
+            background-color: #f9fafb;
+            border-color: #9ca3af;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        &:active {
+            transform: scale(0.98);
+        }
+    }
+
+    &__google_icon {
+        color: #DB4437; // Warna merah khas Google
+        font-size: 1.1rem;
+    }
 }
 
 @keyframes fadeIn {

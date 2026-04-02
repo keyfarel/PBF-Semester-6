@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "./login.module.scss";
-import { FaEnvelope, FaLock } from "react-icons/fa";
+import { FaEnvelope, FaLock, FaGoogle } from "react-icons/fa";
 import { useState } from "react";
 import { signIn } from "next-auth/react"; 
 
@@ -34,7 +34,6 @@ const TampilanLogin = () => {
             } else {
                 console.log("Login Berhasil ✔");
                 form.reset();
-                
                 push(callbackUrl); 
             }
         } catch (err) {
@@ -90,6 +89,19 @@ const TampilanLogin = () => {
                         {isLoading ? "Loading..." : "Masuk"}
                     </button>
                 </form>
+
+                <div className={styles.login__divider}>
+                    <span>atau masuk dengan</span>
+                </div>
+
+                <button 
+                    type="button"
+                    className={styles.login__google_button}
+                    onClick={() => signIn("google", { callbackUrl })}
+                >
+                    <FaGoogle className={styles.login__google_icon} />
+                    Google
+                </button>
 
                 <p className={styles.login__link}>
                     Belum punya akun? <Link href={"/auth/register"}>Daftar di sini</Link>

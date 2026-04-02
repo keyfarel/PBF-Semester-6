@@ -94,3 +94,37 @@
 ![Modifikasi file src/pages/api/auth/[...nextauth].ts](public/docs/langkah-6a.png)
 
 *Modifikasi file src/pages/api/auth/[...nextauth].ts*
+
+### 7. Tambahkan Button Login Google
+
+![Modifikasi file src/pages/api/auth/[...nextauth].ts](public/docs/langkah-7a.png)
+
+*Modifikasi file src/pages/api/auth/[...nextauth].ts*
+
+![Modifikasi file src/views/login/index.tsx](public/docs/langkah-7b.png)
+![Modifikasi file src/views/login/index.tsx](public/docs/langkah-7c.png)
+
+*Modifikasi file src/views/login/index.tsx*
+
+![Modifikasi file src/views/login/login.module.css](public/docs/langkah-7d.png)
+![Modifikasi file src/views/login/login.module.css](public/docs/langkah-7e.png)
+
+*Modifikasi file src/views/login/login.module.css*
+
+![Modifikasi file src/components/layout/navbar/index.tsx](public/docs/langkah-7f.png)
+
+*Modifikasi file src/components/layout/navbar/index.tsx*
+
+![Modifikasi file src/styles/navbar.module.scss](public/docs/langkah-7g.png)
+![Modifikasi file src/styles/navbar.module.scss](public/docs/langkah-7h.png)
+
+*Modifikasi file src/styles/navbar.module.css*
+
+![Halaman Login](public/docs/langkah-7i.png)
+
+*Halaman Login*
+
+![Login berhasil dengan akun google](public/docs/langkah-7j.png)
+
+*Login berhasil dengan akun google*
+
