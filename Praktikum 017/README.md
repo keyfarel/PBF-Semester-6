@@ -78,3 +78,13 @@
 ![Tampilan Client ID dan Client Secret](public/docs/langkah-4d.png)
 
 *Tampilan Client ID dan Client Secret*
+
+### 5. Tambahkan Environment Variables
+
+![Detail OAuth Client ID](public/docs/langkah-5a.png)
+
+*Detail OAuth Client ID*
+
+![Menambah Environment Variables](public/docs/langkah-5b.png)
+
+*Menambah Environment Variables*
