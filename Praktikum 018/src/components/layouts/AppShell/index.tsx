@@ -1,5 +1,11 @@
 import { useRouter } from "next/router";
 import Navbar from "../navbar";
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+});
 
 const disableNavbar = [
   "/auth/login",
@@ -16,11 +22,8 @@ const AppShell = (props: AppShellProps) => {
   const router = useRouter();
   const { pathname } = router;
 
-  // console.log("Router Object:", router);
-  // console.log("Current Pathname:", pathname);
-
   return (
-    <main>
+    <main className={roboto.className}>
       {!disableNavbar.includes(pathname) && <Navbar />}
       {children}
     </main>

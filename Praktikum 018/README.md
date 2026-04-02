@@ -33,3 +33,12 @@
 
 *Modifikasi kode pada file src/pages/404.tsx*
 
+### 3. Menggunakan next/font
+
+![Buka file src/components/layouts/AppShell/index.tsx](public/docs/langkah-3a.png)
+
+*Buka file src/components/layouts/AppShell/index.tsx*
+
+![Hasil inspect font](public/docs/langkah-3b.png)
+
+*Hasil inspect font*
