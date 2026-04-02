@@ -57,6 +57,18 @@
 
 ### 3. Menambahkan Environment Variable di Vercel
 
+![Menambahkan Environment Variable](public/docs/langkah-3a.png)
+
+*Menambahkan Environment Variable*
+
+![Redeploy](public/docs/langkah-3b.png)
+
+*Redeploy*
+
+![Deploy berhasil](public/docs/langkah-3c.png)
+
+*Deploy berhasil*
+
 ### 4. Konfigurasi Google OAuth Production
 
 ### 5. Pengujian Setelah Deployment
