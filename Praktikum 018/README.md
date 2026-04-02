@@ -48,3 +48,13 @@
 ![Modifikasi file src/components/layouts/navbar/index.tsx](public/docs/langkah-4a.png)
 
 *Modifikasi file src/components/layouts/navbar/index.tsx*
+
+### 5. Optimasi Avatar dengan next/image
+
+![Modifikasi file src/components/layouts/navbar/index.tsx](public/docs/langkah-5a.png)
+
+*Modifikasi file src/components/layouts/navbar/index.tsx*
+
+![Modifikasi file next.config.js](public/docs/langkah-5b.png)
+
+*Modifikasi file next.config.js*
