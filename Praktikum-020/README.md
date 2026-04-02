@@ -71,5 +71,52 @@
 
 ### 4. Konfigurasi Google OAuth Production
 
+![Ubah Google OAuth untuk production](public/docs/langkah-4a.png)
+
+*Ubah Google OAuth untuk production*
+
+![Modifikasi kode dan redeploy](public/docs/langkah-4d.png)
+
+*Modifikasi kode dan redeploy*
+
+![Login dengan google](public/docs/langkah-4b.png)
+
+*Login dengan google*
+
+![Login berhasil](public/docs/langkah-4c.png)
+
+*Login berhasil*
+
 ### 5. Pengujian Setelah Deployment
 
+![Akses halaman https://pbf-praktikum-020.vercel.app/](public/docs/langkah-5a.png)
+
+*Akses halaman https://pbf-praktikum-020.vercel.app/*
+
+![Akses halaman https://pbf-praktikum-020.vercel.app/about](public/docs/langkah-5b.png)
+
+*Akses halaman https://pbf-praktikum-020.vercel.app/about*
+
+![Akses halaman https://pbf-praktikum-020.vercel.app/produk](public/docs/langkah-5c.png)
+
+*Akses halaman https://pbf-praktikum-020.vercel.app/produk*
+
+![Akses halaman https://pbf-praktikum-020.vercel.app/profile](public/docs/langkah-5d.png)
+
+*Akses halaman https://pbf-praktikum-020.vercel.app/profile*
+
+![Login dengan google](public/docs/langkah-5e.png)
+
+*Login dengan google*
+
+![Berhasil login dengan google](public/docs/langkah-5f.png)
+
+*Berhasil login dengan google*
+
+![Login dengan kredensial](public/docs/langkah-5g.png)
+
+*Login dengan kredensial*
+
+![Berhasil login dengan kredensial](public/docs/langkah-5h.png)
+
+*Berhasil login dengan kredensial*
