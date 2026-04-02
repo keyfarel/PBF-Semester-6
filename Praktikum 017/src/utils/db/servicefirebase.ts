@@ -90,3 +90,30 @@ export async function signIn(userData: any) {
     return { status: false, message: "Terjadi kesalahan pada server", error };
   }
 }
+
+export async function loginWithGoogle(data: any) {
+  try {
+    const q = query(collection(db, "users"), where("email", "==", data.email));
+    const snapshot = await getDocs(q);
+
+    if (!snapshot.empty) {
+      const userDoc = snapshot.docs[0];
+      return { id: userDoc.id, ...userDoc.data() };
+    } else {
+      const dataToSave = {
+        fullname: data.fullname,
+        email: data.email,
+        password: "", 
+        type: "google", 
+        role: "user", 
+        created_at: new Date().toISOString()
+      };
+      
+      const docRef = await addDoc(collection(db, "users"), dataToSave);
+      return { id: docRef.id, ...dataToSave };
+    }
+  } catch (error) {
+    console.error("Error saat loginWithGoogle:", error);
+    return null;
+  }
+}

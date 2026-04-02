@@ -128,3 +128,16 @@
 
 *Login berhasil dengan akun google*
 
+### 8. Simpan Data Google ke Database
+
+![Modifikasi file src/pages/api/auth/[...nextauth].ts](public/docs/langkah-8a.png)
+
+*Modifikasi file src/pages/api/auth/[...nextauth].ts*
+
+![Modifikasi file src/utils/db/servicefirebase.ts](public/docs/langkah-8b.png)
+
+*Modifikasi file src/utils/db/servicefirebase.ts*
+
+![User berhasil tersimpan di firebase](public/docs/langkah-8c.png)
+
+*User berhasil tersimpan di firebase*

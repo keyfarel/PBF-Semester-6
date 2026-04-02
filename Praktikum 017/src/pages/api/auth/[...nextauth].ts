@@ -1,7 +1,7 @@
 import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import GoogleProvider from "next-auth/providers/google";
-import { signIn } from "@/utils/db/servicefirebase";
+import { signIn, loginWithGoogle } from "@/utils/db/servicefirebase"; 
 
 export const authOptions: NextAuthOptions = {
   session: {
@@ -47,10 +47,24 @@ export const authOptions: NextAuthOptions = {
       }
       
       if (account?.provider === "google" && user) {
-        token.email = user.email;
-        token.fullname = user.name; 
-        token.role = "user"; 
-        token.id = user.id;
+        const data = {
+          fullname: user.name,
+          email: user.email,
+        };
+        
+        const userDB: any = await loginWithGoogle(data);
+
+        if (userDB) {
+          token.email = userDB.email;
+          token.fullname = userDB.fullname; 
+          token.role = userDB.role; 
+          token.id = userDB.id;
+        } else {
+          token.email = user.email;
+          token.fullname = user.name; 
+          token.role = "user"; 
+          token.id = user.id;
+        }
         
         token.picture = user.image; 
       }
