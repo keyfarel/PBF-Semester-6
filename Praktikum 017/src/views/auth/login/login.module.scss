@@ -213,6 +213,36 @@
         color: #DB4437; // Warna merah khas Google
         font-size: 1.1rem;
     }
+
+    &__github_button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0.875rem;
+        background-color: #24292e; // Warna hitam khas GitHub
+        color: #ffffff;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        gap: 10px;
+
+        &:hover {
+            background-color: #000000;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        &:active {
+            transform: scale(0.98);
+        }
+    }
+
+    &__github_icon {
+        font-size: 1.2rem;
+    }
 }
 
 @keyframes fadeIn {

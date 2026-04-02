@@ -179,6 +179,45 @@
 
 ### 3. Tambahkan provider GitHub
 
+![Buka https://github.com/settings/developers](public/docs/mandiri-3a.png)
+
+*Buka https://github.com/settings/developers*
+
+![Buka OauthApp dan Create New dan isi form](public/docs/mandiri-3b.png)
+
+*Buka OauthApp dan Create New dan isi form*
+
+![Client ID dan Client Secret](public/docs/mandiri-3c.png)
+
+*Client ID dan Client Secret*
+
+![Modifikasi env](public/docs/mandiri-3d.png)
+
+*Modifikasi env*
+
+![Modifikasi file src/pages/api/auth/[...nextauth].ts](public/docs/mandiri-3e.png)
+
+*Modifikasi file src/pages/api/auth/[...nextauth].ts*
+
+![Modifikasi file src/views/login/index.tsx](public/docs/mandiri-3f.png)
+
+*Modifikasi file src/views/login/index.tsx*
+
+![Modifikasi file src/views/login/login.module.css](public/docs/mandiri-3g.png)
+
+*Modifikasi file src/views/login/login.module.css*
+
+![Tampilan login dengan github](public/docs/mandiri-3h.png)
+
+*Tampilan login dengan github*
+
+![Proses login dengan akun github](public/docs/mandiri-3i.png)
+
+*Proses login dengan akun github*
+
+![Login berhasil dengan akun github](public/docs/mandiri-3j.png)
+
+*Login berhasil dengan akun github*
 
 ### 4. Refactor service agar reusable
 

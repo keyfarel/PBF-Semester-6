@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "./login.module.scss";
-import { FaEnvelope, FaLock, FaGoogle } from "react-icons/fa";
+import { FaEnvelope, FaLock, FaGoogle, FaGithub } from "react-icons/fa"; 
 import { useState } from "react";
-import { signIn } from "next-auth/react"; 
+import { signIn } from "next-auth/react";
 
 const TampilanLogin = () => {
     const { push, query } = useRouter(); 
@@ -94,14 +94,25 @@ const TampilanLogin = () => {
                     <span>atau masuk dengan</span>
                 </div>
 
-                <button 
-                    type="button"
-                    className={styles.login__google_button}
-                    onClick={() => signIn("google", { callbackUrl })}
-                >
-                    <FaGoogle className={styles.login__google_icon} />
-                    Google
-                </button>
+                <div style={{ display: "flex", gap: "10px", flexDirection: "column" }}>
+                    <button 
+                        type="button"
+                        className={styles.login__google_button}
+                        onClick={() => signIn("google", { callbackUrl })}
+                    >
+                        <FaGoogle className={styles.login__google_icon} />
+                        Google
+                    </button>
+
+                    <button 
+                        type="button"
+                        className={styles.login__github_button}
+                        onClick={() => signIn("github", { callbackUrl })}
+                    >
+                        <FaGithub className={styles.login__github_icon} />
+                        GitHub
+                    </button>
+                </div>
 
                 <p className={styles.login__link}>
                     Belum punya akun? <Link href={"/auth/register"}>Daftar di sini</Link>
