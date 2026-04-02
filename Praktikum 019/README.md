@@ -30,7 +30,15 @@
 
 *Konfigurasi jest.config.mjs*
 
+![Konfigurasi package.json](public/docs/langkah-1d.png)
+
+*Konfigurasi package.json*
+
 ### 2. Struktur Folder Testing
+
+![Struktur folder testing](public/docs/langkah-2.png)
+
+*Struktur folder testing*
 
 ### 3. Testing Halaman About
 
