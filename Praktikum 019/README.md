@@ -92,6 +92,26 @@
 
 ### 6. Testing dengan getByTestId
 
+![Modifikasi file pages/about/index.tsx](public/docs/langkah-6a.png)
+
+*Modifikasi file pages/about/index.tsx*
+
+![Modifikasi file about.spec.tsx](public/docs/langkah-6b.png)
+
+*Modifikasi file about.spec.tsx*
+
+![Hasil coverage benar](public/docs/langkah-6c.png)
+
+*Hasil coverage benar*
+
+![Modifikasi file about.spec.tsx](public/docs/langkah-6d.png)
+
+*Modifikasi file about.spec.tsx*
+
+![Hasil coverage salah](public/docs/langkah-6e.png)
+
+*Hasil coverage salah*
+
 ### 7. Testing Page dengan Router (Mocking)
 
 ### 8. Menangani Undefined Data
