@@ -36,11 +36,28 @@
 
 ### 2. Struktur Folder Testing
 
-![Struktur folder testing](public/docs/langkah-2.png)
+![Struktur folder testing](public/docs/langkah-2a.png)
 
 *Struktur folder testing*
 
 ### 3. Testing Halaman About
+
+![Membuat file about.spec.tsx](public/docs/langkah-3a.png)
+
+*Membuat file about.spec.tsx*
+
+![Modifikasi file about.spec.tsx](public/docs/langkah-3b.png)
+
+*Modifikasi file about.spec.tsx*
+
+![Hasil testing](public/docs/langkah-3c.png)
+
+*Hasil testing*
+
+![Snapshot folder](public/docs/langkah-3d.png)
+
+*Snapshot folder*
+
 
 ### 4. Coverage Report
 
