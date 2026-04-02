@@ -136,6 +136,34 @@
 
 ### 8. Menangani Undefined Data
 
+![Error saat menjalankan test:coverage](public/docs/langkah-8a.png)
+
+*Error saat menjalankan test:coverage*
+
+![Modifikasi file product.spec.tsx](public/docs/langkah-8b.png)
+
+*Modifikasi file product.spec.tsx*
+
+![Modifikasi file product/index.tsx](public/docs/langkah-8c.png)
+
+*Modifikasi file product/index.tsx*
+
+![Hasil masih error](public/docs/langkah-8d.png)
+
+*Hasil masih error*
+
+![Modifikasi file product.spec.tsx](public/docs/langkah-8e.png)
+
+*Modifikasi file product.spec.tsx*
+
+![Modifikasi file product/index.tsx](public/docs/langkah-8f.png)
+
+*Modifikasi file product/index.tsx*
+
+![Hasil coverage sudah pass](public/docs/langkah-8g.png)
+
+*Hasil coverage sudah pass*
+
 ## Tugas Praktikum
 
 ### 1. Buat unit test untuk Halaman Product
