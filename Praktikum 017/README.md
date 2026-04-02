@@ -21,3 +21,16 @@
 
 *Buka https://console.cloud.google.com/apis/credentials*
 
+### 2. Buat Project Baru
+
+![Menambah project MyAppNext](public/docs/langkah-2a.png)
+
+*Menambah project MyAppNext*
+
+![Projek berhasil dibuat](public/docs/langkah-2b.png)
+
+*Projek berhasil dibuat*
+
+![Buka project MyAppNext](public/docs/langkah-2c.png)
+
+*Buka project MyAppNext*
