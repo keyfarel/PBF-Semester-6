@@ -11,7 +11,7 @@ const Kategori = () => {
   // const [isLogin, setIsLogin] = useState(false);
   // useEffect(() => {
   //   if (!isLogin) {
-  //     router.push("/login");
+  //     router.push( "/login");
   //   }
   // }, [isLogin, router]);
 

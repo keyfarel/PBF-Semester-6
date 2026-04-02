@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "@/pages/produk/produk.module.scss";
 
 type ProductType = {
@@ -15,19 +16,25 @@ const TampilanProduk = ({ products }: { products: ProductType[] }) => {
       <div className={styles.produk__content}>
         {products.length > 0 ? (
           <>
-            {products.map((products: ProductType) => (
-              <div key={products.id} className={styles.produk__content__item}>
+            {products.map((product: ProductType) => (
+              <div key={product.id} className={styles.produk__content__item}>
                 <div className={styles.produk__content__item__image}>
-                  <img src={products.image} alt={products.nama} width={200} />
+                  <Image 
+                    src={product.image} 
+                    alt={product.nama} 
+                    width={500} 
+                    height={500}
+                    priority={true}
+                  />
                 </div>
                 <h4 className={styles.produk__content__item__name}>
-                  {products.nama}
+                  {product.nama}
                 </h4>
                 <p className={styles.produk__content__item__category}>
-                  {products.kategori}
+                  {product.kategori}
                 </p>
                 <p className={styles.produk__content__item__price}>
-                  Rp {products.harga.toLocaleString("id-ID")}
+                  Rp {product.harga.toLocaleString("id-ID")}
                 </p>
               </div>
             ))}
