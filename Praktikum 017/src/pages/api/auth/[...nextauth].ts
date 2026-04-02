@@ -1,5 +1,6 @@
 import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
+import GoogleProvider from "next-auth/providers/google";
 import { signIn } from "@/utils/db/servicefirebase";
 
 export const authOptions: NextAuthOptions = {
@@ -31,6 +32,10 @@ export const authOptions: NextAuthOptions = {
         }
       },
     }),
+    GoogleProvider({
+      clientId: process.env.GOOGLE_OAUTH_CLIENT_ID as string,
+      clientSecret: process.env.GOOGLE_OAUTH_CLIENT_SECRET as string,
+    }),
   ],
   callbacks: {
     async jwt({ token, account, user }: any) {
@@ -40,6 +45,14 @@ export const authOptions: NextAuthOptions = {
         token.role = user.role;
         token.id = user.id;
       }
+      
+      if (account?.provider === "google" && user) {
+        token.email = user.email;
+        token.fullname = user.name; 
+        token.role = "user"; 
+        token.id = user.id;
+      }
+      
       return token;
     },
     async session({ session, token }: any) {
