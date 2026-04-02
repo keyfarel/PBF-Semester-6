@@ -9,8 +9,9 @@ type ProductType = {
   category: string;
 };
 
-const HalamanProdukStatic = (props: { products: ProductType[] }) => {
+const HalamanProdukServer = (props: { products: ProductType[] }) => {
   const router = useRouter();
+
   const handleRefresh = () => {
     router.replace(router.asPath);
   };
@@ -20,10 +21,11 @@ const HalamanProdukStatic = (props: { products: ProductType[] }) => {
   );
 };
 
-export default HalamanProdukStatic;
+export default HalamanProdukServer;
 
-export async function getStaticProps() {
-  const res = await fetch("http://localhost:3000/api/produk");
+export async function getServerSideProps() {
+  // UPDATE: Menggunakan Environment Variable
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/produk`);
   const response = await res.json();
 
   const mapped: ProductType[] = (response.data ?? []).map((p: any) => ({
@@ -38,8 +40,5 @@ export async function getStaticProps() {
     props: {
       products: mapped,
     },
-    // Menambahkan ISR: Halaman akan di-generate ulang di background 
-    // setiap kali ada request baru, dengan jeda minimal 10 detik.
-    revalidate: 10, 
   };
 }

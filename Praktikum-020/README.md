@@ -33,8 +33,27 @@
 
 *git push -u origin main*
 
-
 ### 2. Deployment ke Vercel
+
+![Pilih repository](public/docs/langkah-2a.png)
+
+*Pilih repository*
+
+![Konfigurasi deployment](public/docs/langkah-2b.png)
+
+*Konfigurasi deployment*
+
+![Comment src/pages/produk/static.tsx](public/docs/langkah-2c.png)
+
+*Comment src/pages/produk/static.tsx*
+
+![Modifikasi src/pages/produk/[produk].tsx](public/docs/langkah-2e.png)
+
+*Modifikasi src/pages/produk/[produk].tsx*
+
+![Modifikasi src/pages/produk/server.tsx](public/docs/langkah-2d.png)
+
+*Modifikasi src/pages/produk/server.tsx*
 
 ### 3. Menambahkan Environment Variable di Vercel
 
