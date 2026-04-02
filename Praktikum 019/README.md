@@ -58,8 +58,23 @@
 
 *Snapshot folder*
 
-
 ### 4. Coverage Report
+
+![Konfigurasi package.json](public/docs/langkah-4a.png)
+
+*Konfigurasi package.json*
+
+![Jalankan command test:coverage](public/docs/langkah-4b.png)
+
+*Jalankan command test:coverage*
+
+![Direktori hasil coverage](public/docs/langkah-4c.png)
+
+*Direktori hasil coverage*
+
+![Buka index.html dari folder coverage](public/docs/langkah-4d.png)
+
+*Buka index.html dari folder coverage*
 
 ### 5. Konfigurasi Coverage Lengkap
 
