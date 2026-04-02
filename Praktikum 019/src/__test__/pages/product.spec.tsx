@@ -1,4 +1,4 @@
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import Kategori from "@/pages/produk"; 
 
 jest.mock("next/router", () => ({
@@ -9,10 +9,7 @@ jest.mock("next/router", () => ({
       query: {},
       asPath: "",
       push: jest.fn(),
-      events: {
-        on: jest.fn(),
-        off: jest.fn(),
-      },
+      events: { on: jest.fn(), off: jest.fn() },
       beforePopState: jest.fn(() => null),
       prefetch: jest.fn(() => null),
     };
@@ -29,9 +26,17 @@ jest.mock("swr", () => ({
 }));
 
 describe("Halaman Produk", () => {
+  
   it("harus render sesuai dengan snapshot tanpa error router", () => {
     const { container } = render(<Kategori />);
-    
     expect(container).toMatchSnapshot();
   });
+
+  it("harus memiliki judul tersembunyi 'Daftar Produk'", () => {
+    render(<Kategori />);
+    
+    const judul = screen.getByTestId("judul-halaman");
+    expect(judul.textContent).toBe("Daftar Produk");
+  });
+
 });

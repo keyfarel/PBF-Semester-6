@@ -168,11 +168,25 @@
 
 ### 1. Buat unit test untuk Halaman Product
 
+![Kode unit test pages/product/index.tsx](public/docs/tugas-1a.png)
+
+*Kode unit test pages/product/index.tsx*
+
 ### 2. Gunakan 1 Snapshot test, 1 toBe(), 1 getByTestId()
+
+![Kode implementasi snapshot, toBe, getByTestId](public/docs/tugas-1b.png)
+
+*Kode implementasi snapshot, toBe, getByTestId*
 
 ### 3. Buat coverage minimal 50%
 
+![Hasil coverage](public/docs/tugas-1d.png)
+
+*Hasil coverage*
+
 ### 4. Lakukan mocking untuk router
 
-### 5. Dokumentasikan hasil coverage
+![Mocking router](public/docs/tugas-1a.png)
+
+*Mocking router*
 
