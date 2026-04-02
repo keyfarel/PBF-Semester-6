@@ -78,6 +78,18 @@
 
 ### 5. Konfigurasi Coverage Lengkap
 
+![Konfigurasi jest.config.mjs](public/docs/langkah-5a.png)
+
+*Konfigurasi jest.config.mjs*
+
+![Jalankan command test:coverage](public/docs/langkah-5b.png)
+
+*Jalankan command test:coverage*
+
+![Hasil coverage](public/docs/langkah-5c.png)
+
+*Hasil coverage*
+
 ### 6. Testing dengan getByTestId
 
 ### 7. Testing Page dengan Router (Mocking)
