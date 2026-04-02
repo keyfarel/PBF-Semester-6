@@ -35,128 +35,128 @@
 
 ### 1. Masuk ke Google Cloud Console Buka:
 
-![Buka https://console.cloud.google.com/apis/credentials](public/docs/langkah-1a.png)
+![Buka https://console.cloud.google.com/apis/credentials](docs/praktikum-017/langkah-1a.png)
 
 *Buka https://console.cloud.google.com/apis/credentials*
 
 ### 2. Buat Project Baru
 
-![Menambah project MyAppNext](public/docs/langkah-2a.png)
+![Menambah project MyAppNext](docs/praktikum-017/langkah-2a.png)
 
 *Menambah project MyAppNext*
 
-![Projek berhasil dibuat](public/docs/langkah-2b.png)
+![Projek berhasil dibuat](docs/praktikum-017/langkah-2b.png)
 
 *Projek berhasil dibuat*
 
-![Buka project MyAppNext](public/docs/langkah-2c.png)
+![Buka project MyAppNext](docs/praktikum-017/langkah-2c.png)
 
 *Buka project MyAppNext*
 
 ### 3. Konfigurasi OAuth Consent Screen
 
-![Buka OAuth consent screen](public/docs/langkah-3a.png)
+![Buka OAuth consent screen](docs/praktikum-017/langkah-3a.png)
 
 *Buka OAuth consent screen*
 
-![Isi App Information](public/docs/langkah-3b.png)
+![Isi App Information](docs/praktikum-017/langkah-3b.png)
 
 *Isi App Information*
 
-![Isi Audience](public/docs/langkah-3c.png)
+![Isi Audience](docs/praktikum-017/langkah-3c.png)
 
 *Isi Audience*
 
-![Isi Contact Information](public/docs/langkah-3d.png)
+![Isi Contact Information](docs/praktikum-017/langkah-3d.png)
 
 *Isi Contact Information*
 
-![Finish](public/docs/langkah-3e.png)
+![Finish](docs/praktikum-017/langkah-3e.png)
 
 *Finish*
 
-![Tampilan OAuth Consent Screen](public/docs/langkah-3f.png)
+![Tampilan OAuth Consent Screen](docs/praktikum-017/langkah-3f.png)
 
 *Tampilan OAuth Consent Screen*
 
 ### 4. Buat OAuth Credentials
 
-![Bukan Credentials](public/docs/langkah-4a.png)
+![Bukan Credentials](docs/praktikum-017/langkah-4a.png)
 
 *Bukan Credentials*
 
-![Isi OAuth Client ID](public/docs/langkah-4b.png)
+![Isi OAuth Client ID](docs/praktikum-017/langkah-4b.png)
 
 *Isi OAuth Client ID*
 
-![Detail OAuth Client ID](public/docs/langkah-4c.png)
+![Detail OAuth Client ID](docs/praktikum-017/langkah-4c.png)
 
 *Detail OAuth Client ID*
 
-![Tampilan Client ID dan Client Secret](public/docs/langkah-4d.png)
+![Tampilan Client ID dan Client Secret](docs/praktikum-017/langkah-4d.png)
 
 *Tampilan Client ID dan Client Secret*
 
 ### 5. Tambahkan Environment Variables
 
-![Detail OAuth Client ID](public/docs/langkah-5a.png)
+![Detail OAuth Client ID](docs/praktikum-017/langkah-5a.png)
 
 *Detail OAuth Client ID*
 
-![Menambah Environment Variables](public/docs/langkah-5b.png)
+![Menambah Environment Variables](docs/praktikum-017/langkah-5b.png)
 
 *Menambah Environment Variables*
 
 ### 6. Konfigurasi Google Provider di NextAuth dan Handle Callback JWT & Session
 
-![Modifikasi file src/pages/api/auth/[...nextauth].ts](public/docs/langkah-6a.png)
+![Modifikasi file src/pages/api/auth/[...nextauth].ts](docs/praktikum-017/langkah-6a.png)
 
 *Modifikasi file src/pages/api/auth/[...nextauth].ts*
 
 ### 7. Tambahkan Button Login Google
 
-![Modifikasi file src/pages/api/auth/[...nextauth].ts](public/docs/langkah-7a.png)
+![Modifikasi file src/pages/api/auth/[...nextauth].ts](docs/praktikum-017/langkah-7a.png)
 
 *Modifikasi file src/pages/api/auth/[...nextauth].ts*
 
-![Modifikasi file src/views/login/index.tsx](public/docs/langkah-7b.png)
-![Modifikasi file src/views/login/index.tsx](public/docs/langkah-7c.png)
+![Modifikasi file src/views/login/index.tsx](docs/praktikum-017/langkah-7b.png)
+![Modifikasi file src/views/login/index.tsx](docs/praktikum-017/langkah-7c.png)
 
 *Modifikasi file src/views/login/index.tsx*
 
-![Modifikasi file src/views/login/login.module.css](public/docs/langkah-7d.png)
-![Modifikasi file src/views/login/login.module.css](public/docs/langkah-7e.png)
+![Modifikasi file src/views/login/login.module.css](docs/praktikum-017/langkah-7d.png)
+![Modifikasi file src/views/login/login.module.css](docs/praktikum-017/langkah-7e.png)
 
 *Modifikasi file src/views/login/login.module.css*
 
-![Modifikasi file src/components/layout/navbar/index.tsx](public/docs/langkah-7f.png)
+![Modifikasi file src/components/layout/navbar/index.tsx](docs/praktikum-017/langkah-7f.png)
 
 *Modifikasi file src/components/layout/navbar/index.tsx*
 
-![Modifikasi file src/styles/navbar.module.scss](public/docs/langkah-7g.png)
-![Modifikasi file src/styles/navbar.module.scss](public/docs/langkah-7h.png)
+![Modifikasi file src/styles/navbar.module.scss](docs/praktikum-017/langkah-7g.png)
+![Modifikasi file src/styles/navbar.module.scss](docs/praktikum-017/langkah-7h.png)
 
 *Modifikasi file src/styles/navbar.module.css*
 
-![Halaman Login](public/docs/langkah-7i.png)
+![Halaman Login](docs/praktikum-017/langkah-7i.png)
 
 *Halaman Login*
 
-![Login berhasil dengan akun google](public/docs/langkah-7j.png)
+![Login berhasil dengan akun google](docs/praktikum-017/langkah-7j.png)
 
 *Login berhasil dengan akun google*
 
 ### 8. Simpan Data Google ke Database
 
-![Modifikasi file src/pages/api/auth/[...nextauth].ts](public/docs/langkah-8a.png)
+![Modifikasi file src/pages/api/auth/[...nextauth].ts](docs/praktikum-017/langkah-8a.png)
 
 *Modifikasi file src/pages/api/auth/[...nextauth].ts*
 
-![Modifikasi file src/utils/db/servicefirebase.ts](public/docs/langkah-8b.png)
+![Modifikasi file src/utils/db/servicefirebase.ts](docs/praktikum-017/langkah-8b.png)
 
 *Modifikasi file src/utils/db/servicefirebase.ts*
 
-![User berhasil tersimpan di firebase](public/docs/langkah-8c.png)
+![User berhasil tersimpan di firebase](docs/praktikum-017/langkah-8c.png)
 
 *User berhasil tersimpan di firebase*
 
@@ -164,100 +164,100 @@
 
 ### 1. Tambahkan role editor
 
-![Modifikasi file src/components/layouts/navbar/index.tsx](public/docs/langkah-8a.png)
+![Modifikasi file src/components/layouts/navbar/index.tsx](docs/praktikum-017/langkah-8a.png)
 
 *Modifikasi file src/components/layouts/navbar/index.tsx*
 
-![Modifikasi file src/styles/navbar.module.css](public/docs/langkah-8b.png)
+![Modifikasi file src/styles/navbar.module.css](docs/praktikum-017/langkah-8b.png)
 
 *Modifikasi file src/styles/navbar.module.css*
 
 
 ### 2. Buat halaman khusus editor
 
-![Modifikasi file src/pages/editor/index.tsx](public/docs/mandiri-2a.png)
+![Modifikasi file src/pages/editor/index.tsx](docs/praktikum-017/mandiri-2a.png)
 
 *Modifikasi file src/pages/editor/index.tsx*
 
-![Modifikasi file src/middleware.ts](public/docs/mandiri-2b.png)
+![Modifikasi file src/middleware.ts](docs/praktikum-017/mandiri-2b.png)
 
 *Modifikasi file src/middleware.ts*
 
-![Modifikasi file src/middlewares/withAuth.ts](public/docs/mandiri-2c.png)
+![Modifikasi file src/middlewares/withAuth.ts](docs/praktikum-017/mandiri-2c.png)
 
 *Modifikasi file src/middlewares/withAuth.ts*
 
-![Ubah role dari user ke editor di firestore](public/docs/mandiri-2d.png)
+![Ubah role dari user ke editor di firestore](docs/praktikum-017/mandiri-2d.png)
 
 *Ubah role dari user ke editor di firestore*
 
-![Halaman Editor](public/docs/mandiri-2e.png)
+![Halaman Editor](docs/praktikum-017/mandiri-2e.png)
 
 *Halaman Editor*
 
 ### 3. Tambahkan provider GitHub
 
-![Buka https://github.com/settings/developers](public/docs/mandiri-3a.png)
+![Buka https://github.com/settings/developers](docs/praktikum-017/mandiri-3a.png)
 
 *Buka https://github.com/settings/developers*
 
-![Buka OauthApp dan Create New dan isi form](public/docs/mandiri-3b.png)
+![Buka OauthApp dan Create New dan isi form](docs/praktikum-017/mandiri-3b.png)
 
 *Buka OauthApp dan Create New dan isi form*
 
-![Client ID dan Client Secret](public/docs/mandiri-3c.png)
+![Client ID dan Client Secret](docs/praktikum-017/mandiri-3c.png)
 
 *Client ID dan Client Secret*
 
-![Modifikasi env](public/docs/mandiri-3d.png)
+![Modifikasi env](docs/praktikum-017/mandiri-3d.png)
 
 *Modifikasi env*
 
-![Modifikasi file src/pages/api/auth/[...nextauth].ts](public/docs/mandiri-3e.png)
+![Modifikasi file src/pages/api/auth/[...nextauth].ts](docs/praktikum-017/mandiri-3e.png)
 
 *Modifikasi file src/pages/api/auth/[...nextauth].ts*
 
-![Modifikasi file src/views/login/index.tsx](public/docs/mandiri-3f.png)
+![Modifikasi file src/views/login/index.tsx](docs/praktikum-017/mandiri-3f.png)
 
 *Modifikasi file src/views/login/index.tsx*
 
-![Modifikasi file src/views/login/login.module.css](public/docs/mandiri-3g.png)
+![Modifikasi file src/views/login/login.module.css](docs/praktikum-017/mandiri-3g.png)
 
 *Modifikasi file src/views/login/login.module.css*
 
-![Tampilan login dengan github](public/docs/mandiri-3h.png)
+![Tampilan login dengan github](docs/praktikum-017/mandiri-3h.png)
 
 *Tampilan login dengan github*
 
-![Proses login dengan akun github](public/docs/mandiri-3i.png)
+![Proses login dengan akun github](docs/praktikum-017/mandiri-3i.png)
 
 *Proses login dengan akun github*
 
-![Login berhasil dengan akun github](public/docs/mandiri-3j.png)
+![Login berhasil dengan akun github](docs/praktikum-017/mandiri-3j.png)
 
 *Login berhasil dengan akun github*
 
 ### 4. Refactor service agar reusable
 
-![Modifikasi file src/utils/db/servicefirebase.ts](public/docs/mandiri-4a.png)
+![Modifikasi file src/utils/db/servicefirebase.ts](docs/praktikum-017/mandiri-4a.png)
 
 *Modifikasi file src/utils/db/servicefirebase.ts*
 
-![Modifikasi file src/pages/api/auth/[...nextauth].ts](public/docs/mandiri-4b.png)
+![Modifikasi file src/pages/api/auth/[...nextauth].ts](docs/praktikum-017/mandiri-4b.png)
 
 *Buka OauthApp dan Create New dan isi form*
 
-![Data di firestore](public/docs/mandiri-4c.png)
+![Data di firestore](docs/praktikum-017/mandiri-4c.png)
 
 *Data di firestore*
 
 ### 5. Gunakan next/image untuk optimasi avatar
 
-![Modifikasi file next.config.js](public/docs/mandiri-5a.png)
+![Modifikasi file next.config.js](docs/praktikum-017/mandiri-5a.png)
 
 *Modifikasi file next.config.js*
 
-![Modifikasi file src/components/layouts/navbar/index.tsx](public/docs/mandiri-5b.png)
+![Modifikasi file src/components/layouts/navbar/index.tsx](docs/praktikum-017/mandiri-5b.png)
 
 *Modifikasi file src/components/layouts/navbar/index.tsx*
 

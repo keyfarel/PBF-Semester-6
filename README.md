@@ -21,6 +21,7 @@ Setiap materi atau tugas praktikum disimpan dalam foldernya masing-masing:
 - **Praktikum 014**: Implementasi Autentikasi dan Otorisasi menggunakan NextAuth.js, pengelolaan *Session* berbasis JWT (*JSON Web Token*), integrasi tombol *Login/Logout* responsif dengan data pengguna dinamis, serta proteksi keamanan rute (misalnya halaman profil) dengan menggunakan *Middleware*.
 - **Praktikum 015**: Implementasi fitur Registrasi pengguna, pembuatan antarmuka (*view*) halaman register, integrasi REST API endpoint untuk operasi penambahan data pengguna pada Firebase Firestore, serta pengamanan data melalui mekanisme *hashing* password menggunakan library `bcrypt`.
 - **Praktikum 016**: Implementasi Custom Login Page terintegrasi dengan NextAuth dan Firebase (Credentials Provider), manajemen hak akses pengguna (*role-based token*), pemanfaatan *Callback URL*, serta penambahan sistem keamanan *Middleware* tingkat lanjut untuk proteksi halaman admin dan pengguna berdasarkan *role*.
+- **Praktikum 017**: Implementasi Autentikasi OAuth (Google dan GitHub) menggunakan NextAuth, sinkronisasi data kredensial pengguna ke Firebase Firestore, pengelolaan *multi-role* berjenjang (User, Editor), refactoring *database service* agar *reusable*, serta optimasi pemuatan *avatar* menggunakan komponen `next/image`.
 
 ## Laporan Praktikum
 
@@ -40,6 +41,7 @@ Akses laporan praktikum melalui link berikut:
 - [Laporan Praktikum 14](Laporan%20Jobsheet/praktikum-014.md)
 - [Laporan Praktikum 15](Laporan%20Jobsheet/praktikum-015.md)
 - [Laporan Praktikum 16](Laporan%20Jobsheet/praktikum-016.md)
+- [Laporan Praktikum 17](Laporan%20Jobsheet/praktikum-017.md)
 
 ## Cara Menjalankan
 
