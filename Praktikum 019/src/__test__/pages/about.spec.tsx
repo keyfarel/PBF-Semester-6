@@ -10,6 +10,6 @@ describe("Halaman About", () => {
   it("harus menampilkan teks judul yang benar", () => {
     render(<About />);
     const title = screen.getByTestId("title");
-    expect(title.textContent).toBe("About");
+    expect(title.textContent).toBe("About Page");
   });
 });

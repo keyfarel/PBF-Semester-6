@@ -114,6 +114,26 @@
 
 ### 7. Testing Page dengan Router (Mocking)
 
+![Menambah file product.spec.tsx](public/docs/langkah-7a.png)
+
+*Menambah file product.spec.tsx*
+
+![Modifikasi file product.spec.tsx](public/docs/langkah-7b.png)
+
+*Modifikasi file product.spec.tsx*
+
+![Hasil coverage error](public/docs/langkah-7c.png)
+
+*Hasil coverage error*
+
+![Modifikasi file product.spec.tsx](public/docs/langkah-7d.png)
+
+*Modifikasi file product.spec.tsx*
+
+![Hasil coverage benar](public/docs/langkah-7e.png)
+
+*Hasil coverage benar*
+
 ### 8. Menangani Undefined Data
 
 ## Tugas Praktikum
