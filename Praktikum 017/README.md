@@ -234,3 +234,11 @@
 *Data di firestore*
 
 ### 5. Gunakan next/image untuk optimasi avatar
+
+![Modifikasi file next.config.js](public/docs/mandiri-5a.png)
+
+*Modifikasi file next.config.js*
+
+![Modifikasi file src/components/layouts/navbar/index.tsx](public/docs/mandiri-5b.png)
+
+*Modifikasi file src/components/layouts/navbar/index.tsx*

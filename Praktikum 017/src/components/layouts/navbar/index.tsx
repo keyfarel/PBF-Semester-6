@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from "../../../styles/navbar.module.css";
 import { signIn, signOut, useSession } from "next-auth/react";
+import Image from "next/image"; 
 
 const Navbar = () => {
   const { data: session } = useSession();
@@ -33,6 +34,7 @@ const Navbar = () => {
         </div>
       </div>
 
+      {/* Bagian Kanan: Profile & Auth */}
       <div className={styles.navRight}>
         {session ? (
           <div className={styles.profileWrapper}>
@@ -40,7 +42,15 @@ const Navbar = () => {
               <span className={styles.userName}>{fullname}</span>
               <span className={styles.userRole}>{role}</span>
             </div>
-            <img src={userImage} alt="Profile" className={styles.avatar} />
+            
+            <Image 
+              src={userImage} 
+              alt="Profile" 
+              width={36} 
+              height={36} 
+              className={styles.avatar} 
+            />
+            
             <div className={styles.divider}></div>
             <button 
               className={styles.btnLogout} 
