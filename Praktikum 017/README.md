@@ -60,3 +60,21 @@
 ![Tampilan OAuth Consent Screen](public/docs/langkah-3f.png)
 
 *Tampilan OAuth Consent Screen*
+
+### 4. Buat OAuth Credentials
+
+![Bukan Credentials](public/docs/langkah-4a.png)
+
+*Bukan Credentials*
+
+![Isi OAuth Client ID](public/docs/langkah-4b.png)
+
+*Isi OAuth Client ID*
+
+![Detail OAuth Client ID](public/docs/langkah-4c.png)
+
+*Detail OAuth Client ID*
+
+![Tampilan Client ID dan Client Secret](public/docs/langkah-4d.png)
+
+*Tampilan Client ID dan Client Secret*
