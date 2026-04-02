@@ -157,6 +157,25 @@
 
 ### 2. Buat halaman khusus editor
 
+![Modifikasi file src/pages/editor/index.tsx](public/docs/mandiri-2a.png)
+
+*Modifikasi file src/pages/editor/index.tsx*
+
+![Modifikasi file src/middleware.ts](public/docs/mandiri-2b.png)
+
+*Modifikasi file src/middleware.ts*
+
+![Modifikasi file src/middlewares/withAuth.ts](public/docs/mandiri-2c.png)
+
+*Modifikasi file src/middlewares/withAuth.ts*
+
+![Ubah role dari user ke editor di firestore](public/docs/mandiri-2d.png)
+
+*Ubah role dari user ke editor di firestore*
+
+![Halaman Editor](public/docs/mandiri-2e.png)
+
+*Halaman Editor*
 
 ### 3. Tambahkan provider GitHub
 
