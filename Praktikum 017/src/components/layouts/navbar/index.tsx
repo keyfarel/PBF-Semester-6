@@ -11,7 +11,6 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      {/* Bagian Kiri: Logo & Menu */}
       <div className={styles.navLeft}>
         <Link href="/" className={styles.logo}>
           MyApp
@@ -19,15 +18,21 @@ const Navbar = () => {
         <div className={styles.navLinks}>
           <Link href="/" className={styles.link}>Home</Link>
           <Link href="/produk" className={styles.link}>Produk</Link>
+          
           {role === "admin" && (
             <Link href="/admin" className={styles.linkAdmin}>
               Admin Panel
             </Link>
           )}
+
+          {(role === "editor" || role === "admin") && (
+            <Link href="/editor" className={styles.linkEditor}>
+              Editor Panel
+            </Link>
+          )}
         </div>
       </div>
 
-      {/* Bagian Kanan: Profile & Auth */}
       <div className={styles.navRight}>
         {session ? (
           <div className={styles.profileWrapper}>

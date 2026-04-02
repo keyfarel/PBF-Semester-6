@@ -145,6 +145,29 @@
   color: #ffffff;
 }
 
+.linkAdmin {
+  text-decoration: none;
+  color: #facc15;
+  font-weight: 600;
+  font-size: 0.85rem;
+  background-color: rgba(250, 204, 21, 0.1);
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(250, 204, 21, 0.2);
+}
+
+/* --- BARU: Style untuk Link Editor --- */
+.linkEditor {
+  text-decoration: none;
+  color: #c084fc; /* Warna ungu */
+  font-weight: 600;
+  font-size: 0.85rem;
+  background-color: rgba(192, 132, 252, 0.1);
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(192, 132, 252, 0.2);
+}
+
 /* --- RESPONSIVE --- */
 @media (min-width: 768px) {
   .navLinks {

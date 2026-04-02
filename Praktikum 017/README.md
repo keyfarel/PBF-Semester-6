@@ -141,3 +141,27 @@
 ![User berhasil tersimpan di firebase](public/docs/langkah-8c.png)
 
 *User berhasil tersimpan di firebase*
+
+## Tugas Mandiri
+
+### 1. Tambahkan role editor
+
+![Modifikasi file src/components/layouts/navbar/index.tsx](public/docs/langkah-8a.png)
+
+*Modifikasi file src/components/layouts/navbar/index.tsx*
+
+![Modifikasi file src/styles/navbar.module.css](public/docs/langkah-8b.png)
+
+*Modifikasi file src/styles/navbar.module.css*
+
+
+### 2. Buat halaman khusus editor
+
+
+### 3. Tambahkan provider GitHub
+
+
+### 4. Refactor service agar reusable
+
+
+### 5. Gunakan next/image untuk optimasi avatar
