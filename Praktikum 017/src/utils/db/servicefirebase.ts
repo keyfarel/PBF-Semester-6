@@ -91,7 +91,7 @@ export async function signIn(userData: any) {
   }
 }
 
-export async function loginWithGoogle(data: any) {
+export async function loginWithOAuth(data: any, provider: string) {
   try {
     const q = query(collection(db, "users"), where("email", "==", data.email));
     const snapshot = await getDocs(q);
@@ -104,7 +104,7 @@ export async function loginWithGoogle(data: any) {
         fullname: data.fullname,
         email: data.email,
         password: "", 
-        type: "google", 
+        type: provider,
         role: "user", 
         created_at: new Date().toISOString()
       };
@@ -113,7 +113,7 @@ export async function loginWithGoogle(data: any) {
       return { id: docRef.id, ...dataToSave };
     }
   } catch (error) {
-    console.error("Error saat loginWithGoogle:", error);
+    console.error("Error saat loginWithOAuth:", error);
     return null;
   }
 }

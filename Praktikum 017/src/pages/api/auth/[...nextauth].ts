@@ -2,7 +2,7 @@ import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import GoogleProvider from "next-auth/providers/google";
 import GithubProvider from "next-auth/providers/github";
-import { signIn, loginWithGoogle } from "@/utils/db/servicefirebase"; 
+import { signIn, loginWithOAuth } from "@/utils/db/servicefirebase"; 
 
 export const authOptions: NextAuthOptions = {
   session: {
@@ -57,7 +57,7 @@ export const authOptions: NextAuthOptions = {
           email: user.email,
         };
         
-        const userDB: any = await loginWithGoogle(data);
+        const userDB: any = await loginWithOAuth(data, account.provider);
 
         if (userDB) {
           token.email = userDB.email;

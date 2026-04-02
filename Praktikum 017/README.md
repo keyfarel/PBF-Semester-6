@@ -221,5 +221,16 @@
 
 ### 4. Refactor service agar reusable
 
+![Modifikasi file src/utils/db/servicefirebase.ts](public/docs/mandiri-4a.png)
+
+*Modifikasi file src/utils/db/servicefirebase.ts*
+
+![Modifikasi file src/pages/api/auth/[...nextauth].ts](public/docs/mandiri-4b.png)
+
+*Buka OauthApp dan Create New dan isi form*
+
+![Data di firestore](public/docs/mandiri-4c.png)
+
+*Data di firestore*
 
 ### 5. Gunakan next/image untuk optimasi avatar
